@@ -1,0 +1,4916 @@
+{
+  "version": 4,
+  "actors": [
+    {
+      "id": "__camera__",
+      "name": "Câmera",
+      "color": "#a855f7",
+      "actorKind": "camera",
+      "isMainCamera": true,
+      "lockedDelete": true,
+      "lockedEdit": false,
+      "costumes": [
+        {
+          "id": "camera_icon",
+          "name": "câmera",
+          "dataUrl": "asset://assets/Câmera/câmera.svg"
+        }
+      ],
+      "activeCostumeId": "camera_icon",
+      "initialX": 0,
+      "initialY": 0,
+      "initialZ": 600,
+      "initialDirection": 90,
+      "initialVisible": false,
+      "scripts": [
+        {
+          "id": "scr_1783720854136_herf",
+          "name": "Script",
+          "enabled": true
+        }
+      ],
+      "cameraFollowActorId": "actor_1783633474237",
+      "cameraFollowOffset": {
+        "x": 0,
+        "y": 85,
+        "z": 0
+      },
+      "sceneId": "scene_main"
+    },
+    {
+      "id": "__scene__",
+      "name": "Cenário 3D",
+      "color": "#34d399",
+      "actorKind": "scene",
+      "lockedDelete": true,
+      "lockedEdit": true,
+      "costumes": [
+        {
+          "id": "scene_icon",
+          "name": "cenário",
+          "dataUrl": "asset://assets/Cenário_3D/cenário.svg"
+        }
+      ],
+      "activeCostumeId": "scene_icon",
+      "initialVisible": false,
+      "sceneGravity": -9.81,
+      "sceneAmbientColor": "#404040",
+      "sceneAmbientIntensity": 1,
+      "sceneHdriAffectsLighting": true,
+      "sceneHdriIntensity": 1,
+      "sceneId": "scene_main"
+    },
+    {
+      "id": "__light_ambient__",
+      "name": "Luz Ambiente",
+      "color": "#fde047",
+      "actorKind": "light",
+      "lockedDelete": false,
+      "lockedEdit": false,
+      "costumes": [
+        {
+          "id": "__light_ambient___icon",
+          "name": "luz",
+          "dataUrl": "asset://assets/Luz_Ambiente/luz.svg"
+        }
+      ],
+      "activeCostumeId": "__light_ambient___icon",
+      "initialX": 0,
+      "initialY": 100,
+      "initialZ": 0,
+      "initialDirection": 90,
+      "initialVisible": false,
+      "lightType": "hemispheric",
+      "lightColor": "#ffffff",
+      "lightIntensity": 1.3,
+      "lightDirection": {
+        "x": 0,
+        "y": -1,
+        "z": 0
+      },
+      "lightSpotAngle": 30,
+      "lightGroundColor": "#222266",
+      "sceneId": "scene_main"
+    },
+    {
+      "id": "__light_directional__",
+      "name": "Luz Direcional",
+      "color": "#fde047",
+      "actorKind": "light",
+      "lockedDelete": false,
+      "lockedEdit": false,
+      "costumes": [
+        {
+          "id": "__light_directional___icon",
+          "name": "luz",
+          "dataUrl": "asset://assets/Luz_Direcional/luz.svg"
+        }
+      ],
+      "activeCostumeId": "__light_directional___icon",
+      "initialX": 0,
+      "initialY": 100,
+      "initialZ": 0,
+      "initialDirection": 90,
+      "initialVisible": false,
+      "lightType": "directional",
+      "lightColor": "#ffffff",
+      "lightIntensity": 0.6,
+      "lightDirection": {
+        "x": 0,
+        "y": -1,
+        "z": 0
+      },
+      "lightSpotAngle": 30,
+      "lightGroundColor": "#222266",
+      "sceneId": "scene_main"
+    },
+    {
+      "id": "actor_1783633474237",
+      "name": "Sora",
+      "color": "#00BCD4",
+      "costumes": [
+        {
+          "id": "costume_1783633473233",
+          "name": "Sora",
+          "dataUrl": "asset://assets/Sora/Sora.png",
+          "kind": "model3d",
+          "glbDataUrl": "asset://assets/Sora/Sora.glb",
+          "animations": [
+            "IDLE",
+            "JUMP",
+            "RUN"
+          ],
+          "skeletonBoneNames": [
+            "bone000",
+            "bone001",
+            "bone002",
+            "bone003",
+            "bone004",
+            "bone005",
+            "bone006",
+            "bone007",
+            "bone008",
+            "bone009",
+            "bone010",
+            "bone011",
+            "bone012",
+            "bone013",
+            "bone014",
+            "bone015",
+            "bone016",
+            "bone017",
+            "bone018",
+            "bone019",
+            "bone020",
+            "bone021",
+            "bone022",
+            "bone023",
+            "bone024",
+            "bone025",
+            "bone026",
+            "bone027",
+            "bone028",
+            "bone029",
+            "bone030",
+            "bone031",
+            "bone032",
+            "bone033",
+            "bone034",
+            "bone035",
+            "bone036",
+            "bone037",
+            "bone038",
+            "bone039",
+            "bone040",
+            "bone041",
+            "bone042",
+            "bone043",
+            "bone044",
+            "bone045",
+            "bone046",
+            "bone047",
+            "bone048",
+            "bone049",
+            "bone050",
+            "bone051",
+            "bone052",
+            "bone053",
+            "bone054",
+            "bone055",
+            "bone056",
+            "bone057",
+            "bone058",
+            "bone059",
+            "bone060",
+            "bone061",
+            "bone062",
+            "bone063",
+            "bone064",
+            "bone065",
+            "bone066",
+            "bone067",
+            "bone068",
+            "bone069",
+            "bone070",
+            "bone071",
+            "bone072",
+            "bone073",
+            "bone074",
+            "bone075",
+            "bone076",
+            "bone077",
+            "bone078",
+            "bone079",
+            "bone080",
+            "bone081",
+            "bone082",
+            "bone083",
+            "bone084",
+            "bone085",
+            "bone086",
+            "bone087",
+            "bone088",
+            "bone089",
+            "bone090",
+            "bone091",
+            "bone092",
+            "bone093",
+            "bone094",
+            "bone095",
+            "bone096",
+            "bone097",
+            "bone098",
+            "bone099",
+            "bone100",
+            "bone101",
+            "bone102",
+            "bone103",
+            "bone104",
+            "bone105",
+            "bone106",
+            "bone107",
+            "bone108",
+            "bone109",
+            "bone110",
+            "bone111",
+            "bone112",
+            "bone113",
+            "bone114",
+            "bone115",
+            "bone116",
+            "bone117",
+            "bone118",
+            "bone119",
+            "bone120",
+            "bone121",
+            "bone122",
+            "bone123",
+            "bone124",
+            "bone125",
+            "bone126",
+            "bone127",
+            "bone128",
+            "bone129",
+            "bone130",
+            "bone131",
+            "bone132",
+            "bone133",
+            "bone134",
+            "bone135",
+            "bone136",
+            "bone137",
+            "bone138",
+            "bone139",
+            "bone140",
+            "bone141",
+            "bone142",
+            "bone143",
+            "bone144",
+            "bone145",
+            "bone146",
+            "bone147",
+            "bone148",
+            "bone149",
+            "bone150",
+            "bone151",
+            "bone152",
+            "bone153",
+            "bone154",
+            "bone155",
+            "bone156",
+            "bone157",
+            "bone158",
+            "bone159",
+            "bone160",
+            "bone161",
+            "bone162",
+            "bone163",
+            "bone164",
+            "bone165",
+            "bone166",
+            "bone167",
+            "bone168",
+            "bone169",
+            "bone170",
+            "bone171",
+            "bone172",
+            "bone173",
+            "bone174",
+            "bone175",
+            "bone176",
+            "bone177",
+            "bone178",
+            "bone179",
+            "bone180",
+            "bone181",
+            "bone182",
+            "bone183",
+            "bone184",
+            "bone185",
+            "bone186",
+            "bone187",
+            "bone188",
+            "bone189",
+            "bone190",
+            "bone191",
+            "bone192",
+            "bone193",
+            "bone194",
+            "bone195",
+            "bone196",
+            "bone197",
+            "bone198",
+            "bone199",
+            "bone200",
+            "bone201",
+            "bone202",
+            "bone203",
+            "bone204",
+            "bone205",
+            "bone206",
+            "bone207",
+            "bone208",
+            "bone209",
+            "bone210",
+            "bone211",
+            "bone212",
+            "bone213",
+            "bone214",
+            "bone215",
+            "bone216",
+            "bone217",
+            "bone218",
+            "bone219",
+            "bone220",
+            "bone221",
+            "bone222",
+            "bone223",
+            "bone224",
+            "bone225",
+            "bone226",
+            "bone227"
+          ]
+        },
+        {
+          "id": "costume_1785125058850",
+          "name": "cueio",
+          "dataUrl": "asset://assets/Sora/cueio.svg",
+          "kind": "model3d",
+          "glbDataUrl": "asset://assets/Sora/cueio.glb",
+          "animations": [],
+          "skeletonBoneNames": [
+            "mixamorig:Hips",
+            "mixamorig:Spine",
+            "mixamorig:Spine1",
+            "mixamorig:Spine2",
+            "mixamorig:Neck",
+            "mixamorig:Head",
+            "mixamorig:HeadTop_End",
+            "mixamorig:LeftShoulder",
+            "mixamorig:LeftArm",
+            "mixamorig:LeftForeArm",
+            "mixamorig:LeftHand",
+            "mixamorig:LeftHandThumb1",
+            "mixamorig:LeftHandThumb2",
+            "mixamorig:LeftHandThumb3",
+            "mixamorig:LeftHandThumb4",
+            "mixamorig:LeftHandIndex1",
+            "mixamorig:LeftHandIndex2",
+            "mixamorig:LeftHandIndex3",
+            "mixamorig:LeftHandIndex4",
+            "mixamorig:RightShoulder",
+            "mixamorig:RightArm",
+            "mixamorig:RightForeArm",
+            "mixamorig:RightHand",
+            "mixamorig:RightHandThumb1",
+            "mixamorig:RightHandThumb2",
+            "mixamorig:RightHandThumb3",
+            "mixamorig:RightHandThumb4",
+            "mixamorig:RightHandIndex1",
+            "mixamorig:RightHandIndex2",
+            "mixamorig:RightHandIndex3",
+            "mixamorig:RightHandIndex4",
+            "mixamorig:LeftUpLeg",
+            "mixamorig:LeftLeg",
+            "mixamorig:LeftFoot",
+            "mixamorig:LeftToeBase",
+            "mixamorig:LeftToe_End",
+            "mixamorig:RightUpLeg",
+            "mixamorig:RightLeg",
+            "mixamorig:RightFoot",
+            "mixamorig:RightToeBase",
+            "mixamorig:RightToe_End"
+          ]
+        }
+      ],
+      "activeCostumeId": "costume_1783633473233",
+      "initialX": 6,
+      "initialY": 41,
+      "initialZ": 413.1,
+      "initialSize": 100,
+      "initialDirection": 83.5,
+      "physicsColliders": [
+        {
+          "id": "col_1783633474238_x1l8",
+          "name": "Collider",
+          "shape": "capsule",
+          "offsetX": -2.59,
+          "offsetY": 43.845,
+          "offsetZ": 0.547,
+          "rotationX": 0,
+          "rotationY": 0,
+          "rotationZ": 0,
+          "sizeX": 60,
+          "sizeY": 89.3,
+          "sizeZ": 41.6,
+          "code": "collider_2_do_ator_Sora"
+        },
+        {
+          "id": "hb_1783637379939_cr58",
+          "name": "Hitbox",
+          "shape": "hitbox",
+          "sizeX": 80,
+          "sizeY": 110,
+          "sizeZ": 110,
+          "offsetX": 0,
+          "offsetY": 20,
+          "offsetZ": -40,
+          "rotationX": 0,
+          "rotationY": 0,
+          "rotationZ": 0,
+          "code": "hitbox_1_do_ator_Sora"
+        }
+      ],
+      "initialYaw3d": -6.5,
+      "initialPitch3d": 0,
+      "initialRoll3d": 0,
+      "initialScaleX": 100,
+      "initialScaleY": 100,
+      "initialScaleZ": 100,
+      "physicsEnabled": true,
+      "physicsBodyType": "dynamic",
+      "physicsRestitution": 0,
+      "physicsLockRotationX": true,
+      "physicsLockRotationY": false,
+      "physicsLockRotationZ": true,
+      "physicsCharacterController": true,
+      "physicsMaxSlopeAngle": 89,
+      "physicsAlignToSlope": true,
+      "sceneId": "scene_main"
+    },
+    {
+      "id": "actor_1783637152446",
+      "name": "Enemy",
+      "color": "#E91E63",
+      "costumes": [
+        {
+          "id": "costume_1783637151191",
+          "name": "slendytubbies_0_records_-_po",
+          "dataUrl": "asset://assets/Enemy/slendytubbies_0_records_-_po.svg",
+          "kind": "model3d",
+          "glbDataUrl": "asset://assets/Enemy/slendytubbies_0_records_-_po.glb",
+          "animations": [
+            "Idle",
+            "Transition",
+            "Pose1",
+            "Transition2",
+            "Pose2",
+            "Walk"
+          ],
+          "skeletonBoneNames": [
+            "_rootJoint",
+            "MCH_asset_01",
+            "asset_02",
+            "spine_001_03",
+            "spine_002_04",
+            "spine_003_05",
+            "neck_06",
+            "head_07",
+            "shoulder_L_08",
+            "upper_arm_L_09",
+            "forearm_L_010",
+            "forearmTwist_L_011",
+            "hand_L_012",
+            "index_L_001_013",
+            "item_L_014",
+            "thumb_L_001_015",
+            "upper_armTwist_L_016",
+            "shoulder_R_017",
+            "upper_arm_R_018",
+            "forearm_R_019",
+            "forearmTwist_R_020",
+            "hand_R_021",
+            "index_R_001_022",
+            "item_R_023",
+            "thumb_R_001_024",
+            "upper_armTwist_R_025",
+            "thigh_L_026",
+            "shin_L_00",
+            "foot_L_027",
+            "toe_L_028",
+            "thigh_R_029",
+            "shin_R_030",
+            "foot_R_031",
+            "toe_R_032"
+          ]
+        }
+      ],
+      "activeCostumeId": "costume_1783637151191",
+      "initialX": 0,
+      "initialY": 116,
+      "initialZ": 0,
+      "initialSize": 100,
+      "initialDirection": 90,
+      "physicsColliders": [
+        {
+          "id": "col_1783637152446_pdqn",
+          "name": "Collider",
+          "shape": "box",
+          "offsetX": 0,
+          "offsetY": 113.145,
+          "offsetZ": 0,
+          "rotationX": 0,
+          "rotationY": 0,
+          "rotationZ": 0,
+          "sizeX": 100,
+          "sizeY": 220,
+          "sizeZ": 100,
+          "code": "collider_2_do_ator_slendytubbies_0_records_po"
+        }
+      ],
+      "physicsEnabled": true,
+      "physicsBodyType": "dynamic",
+      "initialYaw3d": 0,
+      "initialPitch3d": 0,
+      "initialRoll3d": 0,
+      "initialScaleX": 100,
+      "initialScaleY": 100,
+      "initialScaleZ": 100,
+      "sceneId": "scene_main"
+    },
+    {
+      "id": "actor_1783738131709",
+      "name": "invasion",
+      "color": "#E91E63",
+      "costumes": [
+        {
+          "id": "costume_1783738126628",
+          "name": "invasion",
+          "dataUrl": "asset://assets/invasion/invasion.svg",
+          "kind": "model3d",
+          "glbDataUrl": "asset://assets/invasion/invasion.glb",
+          "animations": [
+            "ufo_01"
+          ]
+        }
+      ],
+      "activeCostumeId": "costume_1783738126628",
+      "initialX": -3699,
+      "initialY": 715,
+      "initialZ": 3272,
+      "initialSize": 100,
+      "initialDirection": 90,
+      "physicsColliders": [
+        {
+          "id": "col_1783745851398_6w9y",
+          "name": "gbase_02_primitive0",
+          "shape": "box",
+          "offsetX": 3803.9,
+          "offsetY": -1010.2,
+          "offsetZ": -2386.9,
+          "rotationX": 0,
+          "rotationY": 0,
+          "rotationZ": 0,
+          "sizeX": 3402.5,
+          "sizeY": 215.6,
+          "sizeZ": 3600,
+          "code": "collider_1_do_ator_invasion",
+          "meshPartKey": "gbase_02_primitive0"
+        },
+        {
+          "id": "col_1783746034724_p0mx",
+          "name": "gbase_02_primitive0",
+          "shape": "plane",
+          "offsetX": 1722.8,
+          "offsetY": -816.4,
+          "offsetZ": -3417,
+          "rotationX": 75.5,
+          "rotationY": -90,
+          "rotationZ": -90,
+          "sizeX": 804.9,
+          "sizeY": -381.3,
+          "sizeZ": 896,
+          "code": "collider_2_do_ator_invasion",
+          "meshPartKey": "gbase_02_primitive0"
+        },
+        {
+          "id": "col_1783746525074_it0j",
+          "name": "gbase_03_primitive0",
+          "shape": "box",
+          "offsetX": 1129.7,
+          "offsetY": -814.4,
+          "offsetZ": -2129.4,
+          "rotationX": 0,
+          "rotationY": 0,
+          "rotationZ": 0,
+          "sizeX": 1999.8,
+          "sizeY": 222.9,
+          "sizeZ": 1699.9,
+          "code": "collider_3_do_ator_invasion",
+          "meshPartKey": "gbase_03_primitive0"
+        },
+        {
+          "id": "col_1783746577669_laek",
+          "name": "gbase_03_primitive0",
+          "shape": "box",
+          "offsetX": 942.3,
+          "offsetY": -814.4,
+          "offsetZ": -3387.2,
+          "rotationX": 0,
+          "rotationY": 0,
+          "rotationZ": 0,
+          "sizeX": 795.5,
+          "sizeY": 222.9,
+          "sizeZ": 3600.5,
+          "code": "collider_4_do_ator_invasion",
+          "meshPartKey": "gbase_03_primitive0"
+        },
+        {
+          "id": "col_1783746597632_c2h6",
+          "name": "gbase_03_primitive0",
+          "shape": "box",
+          "offsetX": 1129.7,
+          "offsetY": -814.4,
+          "offsetZ": -4274.6,
+          "rotationX": 0,
+          "rotationY": 0,
+          "rotationZ": 0,
+          "sizeX": 1999.8,
+          "sizeY": 222.9,
+          "sizeZ": 937,
+          "code": "collider_5_do_ator_invasion",
+          "meshPartKey": "gbase_03_primitive0"
+        },
+        {
+          "id": "col_1783746657355_shh2",
+          "name": "Building_06",
+          "shape": "box",
+          "offsetX": 2891.2,
+          "offsetY": -557.1,
+          "offsetZ": -113.7,
+          "rotationX": 0,
+          "rotationY": 0,
+          "rotationZ": 0,
+          "sizeX": 2432.8,
+          "sizeY": 742.7,
+          "sizeZ": 601.3,
+          "code": "collider_6_do_ator_invasion",
+          "meshPartKey": "Building_06"
+        },
+        {
+          "id": "col_1783746685675_l9r3",
+          "name": "Building_05",
+          "shape": "box",
+          "offsetX": 5382.3,
+          "offsetY": -354.8,
+          "offsetZ": -109,
+          "rotationX": 0,
+          "rotationY": 0,
+          "rotationZ": 0,
+          "sizeX": 939.6,
+          "sizeY": 1176.3,
+          "sizeZ": 1045.7,
+          "code": "collider_7_do_ator_invasion",
+          "meshPartKey": "Building_05"
+        },
+        {
+          "id": "col_1783746723484_t4ba",
+          "name": "Building_05",
+          "shape": "box",
+          "offsetX": 4545.6,
+          "offsetY": -354.8,
+          "offsetZ": -35.9,
+          "rotationX": 0,
+          "rotationY": 0,
+          "rotationZ": 0,
+          "sizeX": 914.4,
+          "sizeY": 1176.3,
+          "sizeZ": 719.5,
+          "code": "collider_8_do_ator_invasion",
+          "meshPartKey": "Building_05"
+        },
+        {
+          "id": "col_1783746778446_yrzj",
+          "name": "gbase_02_primitive0",
+          "shape": "plane",
+          "offsetX": 5185.1,
+          "offsetY": -832.3,
+          "offsetZ": -2530,
+          "rotationX": 78,
+          "rotationY": 180,
+          "rotationZ": 180,
+          "sizeX": 596.9,
+          "sizeY": 39.7,
+          "sizeZ": 662.4,
+          "code": "collider_9_do_ator_invasion",
+          "meshPartKey": "gbase_02_primitive0"
+        },
+        {
+          "id": "col_1783747050574_plo2",
+          "name": "gbase_02_primitive0",
+          "shape": "plane",
+          "offsetX": 4527.8,
+          "offsetY": -846.7,
+          "offsetZ": -1092.2,
+          "rotationX": 79.7,
+          "rotationY": 90,
+          "rotationZ": 0,
+          "sizeX": 690.2,
+          "sizeY": 138.7,
+          "sizeZ": 625.8,
+          "code": "collider_10_do_ator_invasion",
+          "meshPartKey": "gbase_02_primitive0"
+        },
+        {
+          "id": "col_1783747275456_3mbi",
+          "name": "gbase_01_primitive0",
+          "shape": "box",
+          "offsetX": 6064.7,
+          "offsetY": -874.6,
+          "offsetZ": -1187,
+          "rotationX": 0,
+          "rotationY": 0,
+          "rotationZ": 0,
+          "sizeX": 2410.3,
+          "sizeY": 238.2,
+          "sizeZ": 2102.4,
+          "code": "collider_11_do_ator_invasion",
+          "meshPartKey": "gbase_01_primitive0"
+        },
+        {
+          "id": "col_1783747333465_fvp0",
+          "name": "gbase_01_primitive0",
+          "shape": "box",
+          "offsetX": 6387.5,
+          "offsetY": -874.6,
+          "offsetZ": -1187,
+          "rotationX": 0,
+          "rotationY": 0,
+          "rotationZ": 0,
+          "sizeX": 1748.8,
+          "sizeY": 238.2,
+          "sizeZ": 3600.2,
+          "code": "collider_12_do_ator_invasion",
+          "meshPartKey": "gbase_01_primitive0"
+        },
+        {
+          "id": "col_1783747367881_lpd8",
+          "name": "Building_01",
+          "shape": "box",
+          "offsetX": 6056.2,
+          "offsetY": -561.8,
+          "offsetZ": -3514.2,
+          "rotationX": 0,
+          "rotationY": 0,
+          "rotationZ": 0,
+          "sizeX": 880.9,
+          "sizeY": 726.5,
+          "sizeZ": 1166.5,
+          "code": "collider_13_do_ator_invasion",
+          "meshPartKey": "Building_01"
+        },
+        {
+          "id": "col_1783747382352_2kxp",
+          "name": "Building_12",
+          "shape": "box",
+          "offsetX": 4913.1,
+          "offsetY": -600.9,
+          "offsetZ": -4307.4,
+          "rotationX": 0,
+          "rotationY": 0,
+          "rotationZ": 0,
+          "sizeX": 1820.8,
+          "sizeY": 830.6,
+          "sizeZ": 677.8,
+          "code": "collider_14_do_ator_invasion",
+          "meshPartKey": "Building_12"
+        },
+        {
+          "id": "col_1783747397692_my5z",
+          "name": "Building_11",
+          "shape": "box",
+          "offsetX": 3055,
+          "offsetY": -647,
+          "offsetZ": -4211.4,
+          "rotationX": 0,
+          "rotationY": 0,
+          "rotationZ": 0,
+          "sizeX": 1914.7,
+          "sizeY": 738.4,
+          "sizeZ": 661.4,
+          "code": "collider_15_do_ator_invasion",
+          "meshPartKey": "Building_11"
+        },
+        {
+          "id": "col_1783747427301_g8gd",
+          "name": "gbase_02_primitive0",
+          "shape": "box",
+          "offsetX": 3933.6,
+          "offsetY": -886.1,
+          "offsetZ": -2386.9,
+          "rotationX": 0,
+          "rotationY": 0,
+          "rotationZ": 0,
+          "sizeX": 1169.7,
+          "sizeY": 1189.6,
+          "sizeZ": 341.9,
+          "code": "collider_16_do_ator_invasion",
+          "meshPartKey": "gbase_02_primitive0"
+        },
+        {
+          "id": "col_1783747485569_4tqd",
+          "name": "gbase_02_primitive0",
+          "shape": "box",
+          "offsetX": 3561.5,
+          "offsetY": -886.1,
+          "offsetZ": -2346,
+          "rotationX": 0,
+          "rotationY": 0,
+          "rotationZ": 0,
+          "sizeX": 345.9,
+          "sizeY": 1101.6,
+          "sizeZ": 483.8,
+          "code": "collider_17_do_ator_invasion",
+          "meshPartKey": "gbase_02_primitive0"
+        }
+      ],
+      "initialYaw3d": 0,
+      "initialPitch3d": 0,
+      "initialRoll3d": 0,
+      "initialScaleX": 100,
+      "initialScaleY": 100,
+      "initialScaleZ": 100,
+      "meshPartsEnabled": true,
+      "meshPartModes": {
+        "UFO": "editable",
+        "gbase_01_primitive2": "editable",
+        "gbase_01_primitive1": "editable",
+        "gbase_01_primitive0": "editable",
+        "tree_1": "editable",
+        "tree_2": "editable",
+        "Background_Building_2": "editable",
+        "Background_Building_3": "editable",
+        "Background_Building_1": "editable",
+        "gbase_02_primitive0": "editable"
+      },
+      "physicsEnabled": true,
+      "physicsBodyType": "static",
+      "physicsUseModelMesh": false,
+      "sceneId": "scene_main"
+    }
+  ],
+  "actorBlocksMap": {
+    "__camera__": {},
+    "__light_ambient__": {},
+    "__light_directional__": {},
+    "__scene__": {},
+    "actor_1783633474237": {
+      "inst_4": {
+        "instanceId": "inst_4",
+        "blockDefId": "start",
+        "x": 40,
+        "y": 40,
+        "inputValues": {},
+        "parent": null,
+        "parentSlot": null,
+        "next": "inst_250",
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 14
+      },
+      "inst_15": {
+        "instanceId": "inst_15",
+        "blockDefId": "forever",
+        "x": 40,
+        "y": 162,
+        "inputValues": {},
+        "parent": "inst_250",
+        "parentSlot": "next",
+        "next": null,
+        "inside1": "inst_37",
+        "inside2": null,
+        "condition": null,
+        "zOrder": 33
+      },
+      "inst_17": {
+        "instanceId": "inst_17",
+        "blockDefId": "key-pressed",
+        "x": 533.8571428571429,
+        "y": 866.2857142857143,
+        "inputValues": {
+          "key": "e"
+        },
+        "parent": "inst_942",
+        "parentSlot": "condition",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 10
+      },
+      "inst_18": {
+        "instanceId": "inst_18",
+        "blockDefId": "if",
+        "x": 72,
+        "y": 433,
+        "inputValues": {},
+        "parent": "inst_48",
+        "parentSlot": "next",
+        "next": "inst_90",
+        "inside1": "inst_97",
+        "inside2": null,
+        "condition": "inst_19",
+        "zOrder": 1
+      },
+      "inst_19": {
+        "instanceId": "inst_19",
+        "blockDefId": "key-pressed",
+        "x": 195.87089987362134,
+        "y": 298.2352941176471,
+        "inputValues": {
+          "key": "w"
+        },
+        "parent": "inst_18",
+        "parentSlot": "condition",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 1
+      },
+      "inst_25": {
+        "instanceId": "inst_25",
+        "blockDefId": "move-axis-3d",
+        "x": 135.29411764705884,
+        "y": 446.2352941176471,
+        "inputValues": {
+          "value": "5",
+          "axis": "y"
+        },
+        "parent": "inst_97",
+        "parentSlot": "next",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 1
+      },
+      "inst_35": {
+        "instanceId": "inst_35",
+        "blockDefId": "hitbox-enable",
+        "x": 474.85714285714295,
+        "y": 904.2857142857143,
+        "inputValues": {
+          "name": "hitbox_1_do_ator_Sora"
+        },
+        "parent": "inst_942",
+        "parentSlot": "inside1",
+        "next": "inst_51",
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 10
+      },
+      "inst_37": {
+        "instanceId": "inst_37",
+        "blockDefId": "hitbox-disable",
+        "x": 72,
+        "y": 379,
+        "inputValues": {
+          "name": "hitbox_1_do_ator_Sora"
+        },
+        "parent": "inst_15",
+        "parentSlot": "inside1",
+        "next": "inst_48",
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 1
+      },
+      "inst_48": {
+        "instanceId": "inst_48",
+        "blockDefId": "set-var",
+        "x": 72,
+        "y": 799,
+        "inputValues": {
+          "name": "anim",
+          "value": "0"
+        },
+        "parent": "inst_37",
+        "parentSlot": "next",
+        "next": "inst_18",
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "inputBlocks": {
+          "value": "inst_49"
+        },
+        "zOrder": 1
+      },
+      "inst_49": {
+        "instanceId": "inst_49",
+        "blockDefId": "anim-name-reporter",
+        "x": 490.52330363297665,
+        "y": 132.83193277310926,
+        "inputValues": {
+          "name": "IDLE"
+        },
+        "parent": "inst_48",
+        "parentSlot": "input",
+        "parentInputId": "value",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 1
+      },
+      "inst_51": {
+        "instanceId": "inst_51",
+        "blockDefId": "set-var",
+        "x": 326.9830922359178,
+        "y": 200.47899159663868,
+        "inputValues": {
+          "name": "anim",
+          "value": "0"
+        },
+        "parent": "inst_35",
+        "parentSlot": "next",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "inputBlocks": {
+          "value": "inst_52"
+        },
+        "zOrder": 10
+      },
+      "inst_52": {
+        "instanceId": "inst_52",
+        "blockDefId": "anim-name-reporter",
+        "x": 126.98309223591784,
+        "y": 118.1260504201681,
+        "inputValues": {
+          "name": "IDLE"
+        },
+        "parent": "inst_51",
+        "parentSlot": "input",
+        "parentInputId": "value",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 10
+      },
+      "inst_72": {
+        "instanceId": "inst_72",
+        "blockDefId": "start",
+        "x": 443.56982421875,
+        "y": 40,
+        "inputValues": {},
+        "parent": null,
+        "parentSlot": null,
+        "next": "inst_73",
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 36
+      },
+      "inst_73": {
+        "instanceId": "inst_73",
+        "blockDefId": "forever",
+        "x": 94.15805951286765,
+        "y": 128,
+        "inputValues": {},
+        "parent": "inst_72",
+        "parentSlot": "next",
+        "next": null,
+        "inside1": "inst_74",
+        "inside2": null,
+        "condition": null,
+        "zOrder": 36
+      },
+      "inst_74": {
+        "instanceId": "inst_74",
+        "blockDefId": "anim-play",
+        "x": 110.15805951286767,
+        "y": 176,
+        "inputValues": {
+          "name": "Attack 1"
+        },
+        "parent": "inst_73",
+        "parentSlot": "inside1",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "inputBlocks": {
+          "name": "inst_89"
+        },
+        "zOrder": 36
+      },
+      "inst_89": {
+        "instanceId": "inst_89",
+        "blockDefId": "var-reporter",
+        "x": 211.09848920036765,
+        "y": 189,
+        "inputValues": {
+          "name": "anim"
+        },
+        "parent": "inst_74",
+        "parentSlot": "input",
+        "parentInputId": "name",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 36
+      },
+      "inst_90": {
+        "instanceId": "inst_90",
+        "blockDefId": "if",
+        "x": 72,
+        "y": 609,
+        "inputValues": {},
+        "parent": "inst_18",
+        "parentSlot": "next",
+        "next": "inst_94",
+        "inside1": "inst_93",
+        "inside2": null,
+        "condition": "inst_92",
+        "zOrder": 1
+      },
+      "inst_92": {
+        "instanceId": "inst_92",
+        "blockDefId": "key-pressed",
+        "x": 83.45368047121195,
+        "y": 464.59663865546224,
+        "inputValues": {
+          "key": "d"
+        },
+        "parent": "inst_90",
+        "parentSlot": "condition",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 1
+      },
+      "inst_93": {
+        "instanceId": "inst_93",
+        "blockDefId": "turn-right",
+        "x": 88,
+        "y": 603,
+        "inputValues": {
+          "value": "5"
+        },
+        "parent": "inst_90",
+        "parentSlot": "inside1",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 1
+      },
+      "inst_94": {
+        "instanceId": "inst_94",
+        "blockDefId": "if",
+        "x": 57.57132753003549,
+        "y": 574.5966386554622,
+        "inputValues": {},
+        "parent": "inst_90",
+        "parentSlot": "next",
+        "next": "inst_942",
+        "inside1": "inst_95",
+        "inside2": null,
+        "condition": "inst_96",
+        "zOrder": 1
+      },
+      "inst_95": {
+        "instanceId": "inst_95",
+        "blockDefId": "turn-right",
+        "x": 73.57132753003549,
+        "y": 622.5966386554622,
+        "inputValues": {
+          "value": "-5"
+        },
+        "parent": "inst_94",
+        "parentSlot": "inside1",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 1
+      },
+      "inst_96": {
+        "instanceId": "inst_96",
+        "blockDefId": "key-pressed",
+        "x": 97.57132753003549,
+        "y": 584.5966386554622,
+        "inputValues": {
+          "key": "a"
+        },
+        "parent": "inst_94",
+        "parentSlot": "condition",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 1
+      },
+      "inst_97": {
+        "instanceId": "inst_97",
+        "blockDefId": "set-var",
+        "x": 470.5125040006237,
+        "y": 374.59663865546224,
+        "inputValues": {
+          "name": "anim",
+          "value": "0"
+        },
+        "parent": "inst_18",
+        "parentSlot": "inside1",
+        "next": "inst_25",
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "inputBlocks": {
+          "value": "inst_107"
+        },
+        "zOrder": 1
+      },
+      "inst_107": {
+        "instanceId": "inst_107",
+        "blockDefId": "anim-name-reporter",
+        "x": 197.58212716238842,
+        "y": 427.59663865546224,
+        "inputValues": {
+          "name": "RUN"
+        },
+        "parent": "inst_97",
+        "parentSlot": "input",
+        "parentInputId": "value",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 1
+      },
+      "inst_108": {
+        "instanceId": "inst_108",
+        "blockDefId": "if",
+        "x": 459.56982421875,
+        "y": 372,
+        "inputValues": {},
+        "parent": "inst_163",
+        "parentSlot": "inside1",
+        "next": null,
+        "inside1": "inst_159",
+        "inside2": null,
+        "condition": "inst_157",
+        "zOrder": 126
+      },
+      "inst_110": {
+        "instanceId": "inst_110",
+        "blockDefId": "key-pressed",
+        "x": 662.9204735693992,
+        "y": -268.07792207792204,
+        "inputValues": {
+          "key": " "
+        },
+        "parent": "inst_163",
+        "parentSlot": "condition",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 125
+      },
+      "inst_111": {
+        "instanceId": "inst_111",
+        "blockDefId": "add-y",
+        "x": 315.2061878551136,
+        "y": 115.63636363636374,
+        "inputValues": {
+          "value": "5"
+        },
+        "parent": "inst_159",
+        "parentSlot": "inside1",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 126
+      },
+      "inst_112": {
+        "instanceId": "inst_112",
+        "blockDefId": "set-var",
+        "x": 573.72607421875,
+        "y": 572,
+        "inputValues": {
+          "name": "anim",
+          "value": "0"
+        },
+        "parent": "inst_179",
+        "parentSlot": "inside1",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "inputBlocks": {
+          "value": "inst_114"
+        },
+        "zOrder": 82
+      },
+      "inst_114": {
+        "instanceId": "inst_114",
+        "blockDefId": "anim-name-reporter",
+        "x": 323.7480797006302,
+        "y": 499.0084033613447,
+        "inputValues": {
+          "name": "JUMP"
+        },
+        "parent": "inst_112",
+        "parentSlot": "input",
+        "parentInputId": "value",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 82
+      },
+      "inst_126": {
+        "instanceId": "inst_126",
+        "blockDefId": "custom-def-custom_1783650964345",
+        "x": 443.56982421875,
+        "y": 256,
+        "inputValues": {
+          "_defLabel": "defina",
+          "_defName": "handle keys - jump"
+        },
+        "parent": null,
+        "parentSlot": null,
+        "next": "inst_163",
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 39
+      },
+      "inst_156": {
+        "instanceId": "inst_156",
+        "blockDefId": "var-reporter",
+        "x": 680.2219523640421,
+        "y": -179.93506493506487,
+        "inputValues": {
+          "name": "jumping"
+        },
+        "parent": "inst_158",
+        "parentSlot": "input",
+        "parentInputId": "num1",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 126
+      },
+      "inst_157": {
+        "instanceId": "inst_157",
+        "blockDefId": "operator-or",
+        "x": 485.34904499797074,
+        "y": 96.3506493506494,
+        "inputValues": {
+          "num1": "",
+          "num2": ""
+        },
+        "parent": "inst_108",
+        "parentSlot": "condition",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "inputBlocks": {
+          "num2": "inst_158",
+          "num1": "inst_941"
+        },
+        "zOrder": 126
+      },
+      "inst_158": {
+        "instanceId": "inst_158",
+        "blockDefId": "operator-gt",
+        "x": 517.6505237926136,
+        "y": -121.36363636363626,
+        "inputValues": {
+          "num1": "",
+          "num2": "0"
+        },
+        "parent": "inst_157",
+        "parentSlot": "input",
+        "parentInputId": "num2",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "inputBlocks": {
+          "num1": "inst_156"
+        },
+        "zOrder": 126
+      },
+      "inst_159": {
+        "instanceId": "inst_159",
+        "blockDefId": "if",
+        "x": 426.34904499797074,
+        "y": 139.3506493506494,
+        "inputValues": {},
+        "parent": "inst_108",
+        "parentSlot": "inside1",
+        "next": "inst_162",
+        "inside1": "inst_111",
+        "inside2": null,
+        "condition": "inst_160",
+        "zOrder": 126
+      },
+      "inst_160": {
+        "instanceId": "inst_160",
+        "blockDefId": "operator-lt",
+        "x": 323.2061878551136,
+        "y": -72.36363636363626,
+        "inputValues": {
+          "num1": "",
+          "num2": "11"
+        },
+        "parent": "inst_159",
+        "parentSlot": "condition",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "inputBlocks": {
+          "num1": "inst_161"
+        },
+        "zOrder": 126
+      },
+      "inst_161": {
+        "instanceId": "inst_161",
+        "blockDefId": "var-reporter",
+        "x": 554.3374330711508,
+        "y": -130.70119905669765,
+        "inputValues": {
+          "name": "jumping"
+        },
+        "parent": "inst_160",
+        "parentSlot": "input",
+        "parentInputId": "num1",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 126
+      },
+      "inst_162": {
+        "instanceId": "inst_162",
+        "blockDefId": "change-var",
+        "x": 445.76600449972227,
+        "y": 273.5845152290167,
+        "inputValues": {
+          "value": "1",
+          "name": "jumping"
+        },
+        "parent": "inst_159",
+        "parentSlot": "next",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 126
+      },
+      "inst_163": {
+        "instanceId": "inst_163",
+        "blockDefId": "if-else",
+        "x": 456.42696707589283,
+        "y": 489.14285714285717,
+        "inputValues": {},
+        "parent": "inst_126",
+        "parentSlot": "next",
+        "next": null,
+        "inside1": "inst_108",
+        "inside2": "inst_164",
+        "condition": "inst_110",
+        "zOrder": 125
+      },
+      "inst_164": {
+        "instanceId": "inst_164",
+        "blockDefId": "set-var",
+        "x": 384.3374330711508,
+        "y": 339.29880094330235,
+        "inputValues": {
+          "name": "jumping",
+          "value": "0"
+        },
+        "parent": "inst_163",
+        "parentSlot": "inside2",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 125
+      },
+      "inst_167": {
+        "instanceId": "inst_167",
+        "blockDefId": "custom-call-custom_1783650964345",
+        "x": 527.4285714285716,
+        "y": 862.7142857142858,
+        "inputValues": {
+          "_callName": "handle keys - jump"
+        },
+        "parent": "inst_196",
+        "parentSlot": "next",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 2
+      },
+      "inst_179": {
+        "instanceId": "inst_179",
+        "blockDefId": "if",
+        "x": 957.1429332386363,
+        "y": 104.00000000000003,
+        "inputValues": {},
+        "parent": "inst_187",
+        "parentSlot": "inside1",
+        "next": "inst_182",
+        "inside1": "inst_112",
+        "inside2": null,
+        "condition": "inst_181",
+        "zOrder": 82
+      },
+      "inst_180": {
+        "instanceId": "inst_180",
+        "blockDefId": "rotation-3d-of",
+        "x": 1266.5440027573532,
+        "y": 459.88235294117646,
+        "inputValues": {
+          "attribute": "velocity-y",
+          "target": "_myself_"
+        },
+        "parent": "inst_181",
+        "parentSlot": "input",
+        "parentInputId": "num1",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 82
+      },
+      "inst_181": {
+        "instanceId": "inst_181",
+        "blockDefId": "operator-gt",
+        "x": 1160.779296875,
+        "y": 253.99999999999997,
+        "inputValues": {
+          "num1": "",
+          "num2": "0.1"
+        },
+        "parent": "inst_179",
+        "parentSlot": "condition",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "inputBlocks": {
+          "num1": "inst_180"
+        },
+        "zOrder": 82
+      },
+      "inst_182": {
+        "instanceId": "inst_182",
+        "blockDefId": "if",
+        "x": 1094.4049653241977,
+        "y": 274.0962566844921,
+        "inputValues": {},
+        "parent": "inst_179",
+        "parentSlot": "next",
+        "next": null,
+        "inside1": "inst_192",
+        "inside2": null,
+        "condition": "inst_185",
+        "zOrder": 82
+      },
+      "inst_185": {
+        "instanceId": "inst_185",
+        "blockDefId": "operator-lt",
+        "x": 1160.779296875,
+        "y": 359,
+        "inputValues": {
+          "num1": "",
+          "num2": "-0.1"
+        },
+        "parent": "inst_182",
+        "parentSlot": "condition",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "inputBlocks": {
+          "num1": "inst_194"
+        },
+        "zOrder": 82
+      },
+      "inst_187": {
+        "instanceId": "inst_187",
+        "blockDefId": "if",
+        "x": 1120.779296875,
+        "y": 156,
+        "inputValues": {},
+        "parent": "inst_195",
+        "parentSlot": "next",
+        "next": null,
+        "inside1": "inst_179",
+        "inside2": null,
+        "condition": "inst_248",
+        "zOrder": 82
+      },
+      "inst_192": {
+        "instanceId": "inst_192",
+        "blockDefId": "set-var",
+        "x": 1233.2284947359626,
+        "y": 368.21390374331554,
+        "inputValues": {
+          "name": "anim",
+          "value": "0"
+        },
+        "parent": "inst_182",
+        "parentSlot": "inside1",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "inputBlocks": {
+          "value": "inst_193"
+        },
+        "zOrder": 82
+      },
+      "inst_193": {
+        "instanceId": "inst_193",
+        "blockDefId": "anim-name-reporter",
+        "x": 1361.4745884859626,
+        "y": 381.21390374331554,
+        "inputValues": {
+          "name": "IDLE"
+        },
+        "parent": "inst_192",
+        "parentSlot": "input",
+        "parentInputId": "value",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 82
+      },
+      "inst_194": {
+        "instanceId": "inst_194",
+        "blockDefId": "rotation-3d-of",
+        "x": 1254.4049653241977,
+        "y": 309.3903743315509,
+        "inputValues": {
+          "attribute": "velocity-y",
+          "target": "_myself_"
+        },
+        "parent": "inst_185",
+        "parentSlot": "input",
+        "parentInputId": "num1",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 82
+      },
+      "inst_195": {
+        "instanceId": "inst_195",
+        "blockDefId": "custom-def-custom_1783658512300",
+        "x": 1104.779296875,
+        "y": 40,
+        "inputValues": {
+          "_defLabel": "defina",
+          "_defName": "paint jump"
+        },
+        "parent": null,
+        "parentSlot": null,
+        "next": "inst_187",
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 40
+      },
+      "inst_196": {
+        "instanceId": "inst_196",
+        "blockDefId": "custom-call-custom_1783658512300",
+        "x": 56,
+        "y": 958,
+        "inputValues": {
+          "_callName": "paint jump"
+        },
+        "parent": "inst_942",
+        "parentSlot": "next",
+        "next": "inst_167",
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 2
+      },
+      "inst_248": {
+        "instanceId": "inst_248",
+        "blockDefId": "operator-not",
+        "x": 1144.779296875,
+        "y": 118,
+        "inputValues": {
+          "num1": ""
+        },
+        "parent": "inst_187",
+        "parentSlot": "condition",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "inputBlocks": {
+          "num1": "inst_249"
+        },
+        "zOrder": 119
+      },
+      "inst_249": {
+        "instanceId": "inst_249",
+        "blockDefId": "touching",
+        "x": 1277.207017494942,
+        "y": 595.0221543162717,
+        "inputValues": {
+          "target": "actor_1783738131709"
+        },
+        "parent": "inst_248",
+        "parentSlot": "input",
+        "parentInputId": "num1",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 120
+      },
+      "inst_250": {
+        "instanceId": "inst_250",
+        "blockDefId": "goto-xyz-3d",
+        "x": 40,
+        "y": 108,
+        "inputValues": {
+          "x": "0",
+          "y": "80",
+          "z": "400"
+        },
+        "parent": "inst_4",
+        "parentSlot": "next",
+        "next": "inst_15",
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 1
+      },
+      "inst_940": {
+        "instanceId": "inst_940",
+        "blockDefId": "rotation-3d-of",
+        "x": 802,
+        "y": 509,
+        "inputValues": {
+          "attribute": "velocity-y",
+          "target": "actor_1783633474237"
+        },
+        "parent": "inst_941",
+        "parentSlot": "input",
+        "parentInputId": "num1",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 4
+      },
+      "inst_941": {
+        "instanceId": "inst_941",
+        "blockDefId": "operator-equals",
+        "x": 513.56982421875,
+        "y": 383,
+        "inputValues": {
+          "num1": "",
+          "num2": "0"
+        },
+        "parent": "inst_157",
+        "parentSlot": "input",
+        "parentInputId": "num1",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "inputBlocks": {
+          "num1": "inst_940"
+        },
+        "zOrder": 3
+      },
+      "inst_942": {
+        "instanceId": "inst_942",
+        "blockDefId": "if",
+        "x": -233.01680672268915,
+        "y": 679.781512605042,
+        "inputValues": {},
+        "parent": "inst_94",
+        "parentSlot": "next",
+        "next": "inst_196",
+        "inside1": "inst_35",
+        "inside2": null,
+        "condition": "inst_17",
+        "zOrder": 10
+      },
+      "inst_943": {
+        "instanceId": "inst_943",
+        "blockDefId": "start",
+        "x": 752.1428571428572,
+        "y": 47.71428571428569,
+        "inputValues": {},
+        "parent": null,
+        "parentSlot": null,
+        "next": "inst_947",
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 1
+      },
+      "inst_947": {
+        "instanceId": "inst_947",
+        "blockDefId": "switch-costume",
+        "x": 752.1428571428572,
+        "y": 115.7142857142857,
+        "inputValues": {
+          "value": "cueio"
+        },
+        "parent": "inst_943",
+        "parentSlot": "next",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 3
+      }
+    },
+    "actor_1783633474237::col::col_1783633474238_x1l8": {},
+    "actor_1783637152446": {
+      "inst_13": {
+        "instanceId": "inst_13",
+        "blockDefId": "start",
+        "x": 40,
+        "y": 40,
+        "inputValues": {},
+        "parent": null,
+        "parentSlot": null,
+        "next": "inst_939",
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 10
+      },
+      "inst_14": {
+        "instanceId": "inst_14",
+        "blockDefId": "anim-play",
+        "x": 238,
+        "y": 171,
+        "inputValues": {
+          "name": ""
+        },
+        "parent": "inst_46",
+        "parentSlot": "next",
+        "next": "inst_29",
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "inputBlocks": {
+          "name": "inst_45"
+        },
+        "zOrder": 7
+      },
+      "inst_29": {
+        "instanceId": "inst_29",
+        "blockDefId": "forever",
+        "x": 40,
+        "y": 156,
+        "inputValues": {},
+        "parent": "inst_14",
+        "parentSlot": "next",
+        "next": null,
+        "inside1": "inst_38",
+        "inside2": null,
+        "condition": null,
+        "zOrder": 7
+      },
+      "inst_38": {
+        "instanceId": "inst_38",
+        "blockDefId": "if",
+        "x": 56,
+        "y": 204,
+        "inputValues": {},
+        "parent": "inst_29",
+        "parentSlot": "inside1",
+        "next": null,
+        "inside1": "inst_41",
+        "inside2": null,
+        "condition": "inst_42",
+        "zOrder": 7
+      },
+      "inst_39": {
+        "instanceId": "inst_39",
+        "blockDefId": "hitbox-is-enabled",
+        "x": 96,
+        "y": 214,
+        "inputValues": {
+          "name": "hitbox_1_do_ator_Sora"
+        },
+        "parent": "inst_42",
+        "parentSlot": "input",
+        "parentInputId": "num1",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 7
+      },
+      "inst_41": {
+        "instanceId": "inst_41",
+        "blockDefId": "move-axis-3d",
+        "x": 465.18463134765625,
+        "y": 444,
+        "inputValues": {
+          "value": "10",
+          "axis": "y"
+        },
+        "parent": "inst_38",
+        "parentSlot": "inside1",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 7
+      },
+      "inst_42": {
+        "instanceId": "inst_42",
+        "blockDefId": "operator-and",
+        "x": 327.4285714285712,
+        "y": 99.57142857142856,
+        "inputValues": {
+          "num1": "",
+          "num2": ""
+        },
+        "parent": "inst_38",
+        "parentSlot": "condition",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "inputBlocks": {
+          "num2": "inst_43",
+          "num1": "inst_39"
+        },
+        "zOrder": 7
+      },
+      "inst_43": {
+        "instanceId": "inst_43",
+        "blockDefId": "hitbox-touching",
+        "x": 441.7333984375,
+        "y": 214,
+        "inputValues": {
+          "name": "hitbox_1_do_ator_Sora",
+          "target": "actor_1783637152446"
+        },
+        "parent": "inst_42",
+        "parentSlot": "input",
+        "parentInputId": "num2",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 7
+      },
+      "inst_45": {
+        "instanceId": "inst_45",
+        "blockDefId": "var-reporter",
+        "x": 330.9404296875,
+        "y": 151,
+        "inputValues": {
+          "name": "anim"
+        },
+        "parent": "inst_14",
+        "parentSlot": "input",
+        "parentInputId": "name",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 9
+      },
+      "inst_46": {
+        "instanceId": "inst_46",
+        "blockDefId": "set-var",
+        "x": 40,
+        "y": 108,
+        "inputValues": {
+          "name": "anim",
+          "value": "idle"
+        },
+        "parent": "inst_939",
+        "parentSlot": "next",
+        "next": "inst_14",
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "inputBlocks": {
+          "value": "inst_47"
+        },
+        "zOrder": 6
+      },
+      "inst_47": {
+        "instanceId": "inst_47",
+        "blockDefId": "anim-name-reporter",
+        "x": 168.24609375,
+        "y": 118,
+        "inputValues": {
+          "name": "Idle"
+        },
+        "parent": "inst_46",
+        "parentSlot": "input",
+        "parentInputId": "value",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 10
+      },
+      "inst_939": {
+        "instanceId": "inst_939",
+        "blockDefId": "goto-xyz-3d",
+        "x": 40,
+        "y": 108,
+        "inputValues": {
+          "x": "0",
+          "y": "400",
+          "z": "0"
+        },
+        "parent": "inst_13",
+        "parentSlot": "next",
+        "next": "inst_46",
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 4
+      }
+    },
+    "__camera__::script::scr_1783720854136_herf": {
+      "inst_665": {
+        "instanceId": "inst_665",
+        "blockDefId": "start",
+        "x": 40,
+        "y": 40,
+        "inputValues": {},
+        "parent": null,
+        "parentSlot": null,
+        "next": "inst_666",
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 1
+      },
+      "inst_666": {
+        "instanceId": "inst_666",
+        "blockDefId": "set-var",
+        "x": 40,
+        "y": 108,
+        "inputValues": {
+          "name": "dist",
+          "value": "200"
+        },
+        "parent": "inst_665",
+        "parentSlot": "next",
+        "next": "inst_667",
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 1
+      },
+      "inst_667": {
+        "instanceId": "inst_667",
+        "blockDefId": "set-var",
+        "x": 40,
+        "y": 156,
+        "inputValues": {
+          "name": "yaw",
+          "value": ""
+        },
+        "parent": "inst_666",
+        "parentSlot": "next",
+        "next": "inst_668",
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "inputBlocks": {
+          "value": "inst_800"
+        },
+        "zOrder": 1
+      },
+      "inst_668": {
+        "instanceId": "inst_668",
+        "blockDefId": "set-var",
+        "x": 40,
+        "y": 216,
+        "inputValues": {
+          "name": "pitch",
+          "value": "18"
+        },
+        "parent": "inst_667",
+        "parentSlot": "next",
+        "next": "inst_669",
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 1
+      },
+      "inst_669": {
+        "instanceId": "inst_669",
+        "blockDefId": "set-var",
+        "x": 40,
+        "y": 264,
+        "inputValues": {
+          "name": "lmx",
+          "value": ""
+        },
+        "parent": "inst_668",
+        "parentSlot": "next",
+        "next": "inst_670",
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "inputBlocks": {
+          "value": "inst_799"
+        },
+        "zOrder": 1
+      },
+      "inst_670": {
+        "instanceId": "inst_670",
+        "blockDefId": "set-var",
+        "x": 40,
+        "y": 318,
+        "inputValues": {
+          "name": "lmy",
+          "value": ""
+        },
+        "parent": "inst_669",
+        "parentSlot": "next",
+        "next": "inst_671",
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "inputBlocks": {
+          "value": "inst_798"
+        },
+        "zOrder": 1
+      },
+      "inst_671": {
+        "instanceId": "inst_671",
+        "blockDefId": "set-var",
+        "x": 40,
+        "y": 372,
+        "inputValues": {
+          "name": "ltx",
+          "value": ""
+        },
+        "parent": "inst_670",
+        "parentSlot": "next",
+        "next": "inst_672",
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "inputBlocks": {
+          "value": "inst_797"
+        },
+        "zOrder": 1
+      },
+      "inst_672": {
+        "instanceId": "inst_672",
+        "blockDefId": "set-var",
+        "x": 40,
+        "y": 426,
+        "inputValues": {
+          "name": "ltz",
+          "value": ""
+        },
+        "parent": "inst_671",
+        "parentSlot": "next",
+        "next": "inst_673",
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "inputBlocks": {
+          "value": "inst_796"
+        },
+        "zOrder": 1
+      },
+      "inst_673": {
+        "instanceId": "inst_673",
+        "blockDefId": "set-var",
+        "x": 40,
+        "y": 480,
+        "inputValues": {
+          "name": "parado",
+          "value": "0"
+        },
+        "parent": "inst_672",
+        "parentSlot": "next",
+        "next": "inst_674",
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 1
+      },
+      "inst_674": {
+        "instanceId": "inst_674",
+        "blockDefId": "set-var",
+        "x": 40,
+        "y": 528,
+        "inputValues": {
+          "name": "d",
+          "value": "200"
+        },
+        "parent": "inst_673",
+        "parentSlot": "next",
+        "next": "inst_675",
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 1
+      },
+      "inst_675": {
+        "instanceId": "inst_675",
+        "blockDefId": "forever",
+        "x": 40,
+        "y": 576,
+        "inputValues": {},
+        "parent": "inst_674",
+        "parentSlot": "next",
+        "next": null,
+        "inside1": "inst_676",
+        "inside2": null,
+        "condition": null,
+        "zOrder": 1
+      },
+      "inst_676": {
+        "instanceId": "inst_676",
+        "blockDefId": "change-var",
+        "x": 56,
+        "y": 624,
+        "inputValues": {
+          "name": "yaw",
+          "value": ""
+        },
+        "parent": "inst_675",
+        "parentSlot": "inside1",
+        "next": "inst_677",
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "inputBlocks": {
+          "value": "inst_793"
+        },
+        "zOrder": 1
+      },
+      "inst_677": {
+        "instanceId": "inst_677",
+        "blockDefId": "change-var",
+        "x": 56,
+        "y": 684,
+        "inputValues": {
+          "name": "pitch",
+          "value": ""
+        },
+        "parent": "inst_676",
+        "parentSlot": "next",
+        "next": "inst_678",
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "inputBlocks": {
+          "value": "inst_790"
+        },
+        "zOrder": 1
+      },
+      "inst_678": {
+        "instanceId": "inst_678",
+        "blockDefId": "if-else",
+        "x": 56,
+        "y": 744,
+        "inputValues": {},
+        "parent": "inst_677",
+        "parentSlot": "next",
+        "next": "inst_679",
+        "inside1": "inst_781",
+        "inside2": "inst_782",
+        "condition": "inst_783",
+        "zOrder": 1
+      },
+      "inst_679": {
+        "instanceId": "inst_679",
+        "blockDefId": "set-var",
+        "x": 56,
+        "y": 941,
+        "inputValues": {
+          "name": "lmx",
+          "value": ""
+        },
+        "parent": "inst_678",
+        "parentSlot": "next",
+        "next": "inst_680",
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "inputBlocks": {
+          "value": "inst_780"
+        },
+        "zOrder": 1
+      },
+      "inst_680": {
+        "instanceId": "inst_680",
+        "blockDefId": "set-var",
+        "x": 56,
+        "y": 995,
+        "inputValues": {
+          "name": "lmy",
+          "value": ""
+        },
+        "parent": "inst_679",
+        "parentSlot": "next",
+        "next": "inst_681",
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "inputBlocks": {
+          "value": "inst_779"
+        },
+        "zOrder": 1
+      },
+      "inst_681": {
+        "instanceId": "inst_681",
+        "blockDefId": "if",
+        "x": 56,
+        "y": 1049,
+        "inputValues": {},
+        "parent": "inst_680",
+        "parentSlot": "next",
+        "next": "inst_682",
+        "inside1": "inst_776",
+        "inside2": null,
+        "condition": "inst_777",
+        "zOrder": 1
+      },
+      "inst_682": {
+        "instanceId": "inst_682",
+        "blockDefId": "if",
+        "x": 56,
+        "y": 1171,
+        "inputValues": {},
+        "parent": "inst_681",
+        "parentSlot": "next",
+        "next": "inst_683",
+        "inside1": "inst_773",
+        "inside2": null,
+        "condition": "inst_774",
+        "zOrder": 1
+      },
+      "inst_683": {
+        "instanceId": "inst_683",
+        "blockDefId": "if",
+        "x": 56,
+        "y": 1293,
+        "inputValues": {},
+        "parent": "inst_682",
+        "parentSlot": "next",
+        "next": "inst_684",
+        "inside1": "inst_748",
+        "inside2": null,
+        "condition": "inst_762",
+        "zOrder": 1
+      },
+      "inst_684": {
+        "instanceId": "inst_684",
+        "blockDefId": "set-var",
+        "x": 56,
+        "y": 1543,
+        "inputValues": {
+          "name": "ltx",
+          "value": ""
+        },
+        "parent": "inst_683",
+        "parentSlot": "next",
+        "next": "inst_685",
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "inputBlocks": {
+          "value": "inst_747"
+        },
+        "zOrder": 1
+      },
+      "inst_685": {
+        "instanceId": "inst_685",
+        "blockDefId": "set-var",
+        "x": 56,
+        "y": 1597,
+        "inputValues": {
+          "name": "ltz",
+          "value": ""
+        },
+        "parent": "inst_684",
+        "parentSlot": "next",
+        "next": "inst_686",
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "inputBlocks": {
+          "value": "inst_746"
+        },
+        "zOrder": 1
+      },
+      "inst_686": {
+        "instanceId": "inst_686",
+        "blockDefId": "set-var",
+        "x": 56,
+        "y": 1651,
+        "inputValues": {
+          "name": "ox",
+          "value": ""
+        },
+        "parent": "inst_685",
+        "parentSlot": "next",
+        "next": "inst_687",
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "inputBlocks": {
+          "value": "inst_741"
+        },
+        "zOrder": 1
+      },
+      "inst_687": {
+        "instanceId": "inst_687",
+        "blockDefId": "set-var",
+        "x": 56,
+        "y": 1717,
+        "inputValues": {
+          "name": "oy",
+          "value": ""
+        },
+        "parent": "inst_686",
+        "parentSlot": "next",
+        "next": "inst_688",
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "inputBlocks": {
+          "value": "inst_739"
+        },
+        "zOrder": 1
+      },
+      "inst_688": {
+        "instanceId": "inst_688",
+        "blockDefId": "set-var",
+        "x": 56,
+        "y": 1777,
+        "inputValues": {
+          "name": "oz",
+          "value": ""
+        },
+        "parent": "inst_687",
+        "parentSlot": "next",
+        "next": "inst_689",
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "inputBlocks": {
+          "value": "inst_734"
+        },
+        "zOrder": 1
+      },
+      "inst_689": {
+        "instanceId": "inst_689",
+        "blockDefId": "set-var",
+        "x": 56,
+        "y": 1843,
+        "inputValues": {
+          "name": "d",
+          "value": "30"
+        },
+        "parent": "inst_688",
+        "parentSlot": "next",
+        "next": "inst_690",
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 1
+      },
+      "inst_690": {
+        "instanceId": "inst_690",
+        "blockDefId": "repeat-until",
+        "x": 56,
+        "y": 1891,
+        "inputValues": {},
+        "parent": "inst_689",
+        "parentSlot": "next",
+        "next": "inst_691",
+        "inside1": "inst_713",
+        "inside2": null,
+        "condition": "inst_714",
+        "zOrder": 1
+      },
+      "inst_691": {
+        "instanceId": "inst_691",
+        "blockDefId": "change-var",
+        "x": 56,
+        "y": 2027,
+        "inputValues": {
+          "name": "d",
+          "value": "-15"
+        },
+        "parent": "inst_690",
+        "parentSlot": "next",
+        "next": "inst_692",
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 1
+      },
+      "inst_692": {
+        "instanceId": "inst_692",
+        "blockDefId": "goto-xyz-3d",
+        "x": 56,
+        "y": 2075,
+        "inputValues": {
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "parent": "inst_691",
+        "parentSlot": "next",
+        "next": "inst_693",
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "inputBlocks": {
+          "x": "inst_697",
+          "y": "inst_702",
+          "z": "inst_707"
+        },
+        "zOrder": 1
+      },
+      "inst_693": {
+        "instanceId": "inst_693",
+        "blockDefId": "point-towards",
+        "x": 56,
+        "y": 2141,
+        "inputValues": {
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "parent": "inst_692",
+        "parentSlot": "next",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "inputBlocks": {
+          "x": "inst_694",
+          "y": "inst_695",
+          "z": "inst_696"
+        },
+        "zOrder": 1
+      },
+      "inst_694": {
+        "instanceId": "inst_694",
+        "blockDefId": "attribute-of",
+        "x": 121.05615234375,
+        "y": 2154,
+        "inputValues": {
+          "attribute": "x-position",
+          "target": "actor_1783633474237"
+        },
+        "parent": "inst_693",
+        "parentSlot": "input",
+        "parentInputId": "x",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 1
+      },
+      "inst_695": {
+        "instanceId": "inst_695",
+        "blockDefId": "attribute-of",
+        "x": 323.2060546875,
+        "y": 2154,
+        "inputValues": {
+          "attribute": "y-position",
+          "target": "actor_1783633474237"
+        },
+        "parent": "inst_693",
+        "parentSlot": "input",
+        "parentInputId": "y",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 1
+      },
+      "inst_696": {
+        "instanceId": "inst_696",
+        "blockDefId": "attribute-of",
+        "x": 524.73828125,
+        "y": 2154,
+        "inputValues": {
+          "attribute": "z-position",
+          "target": "actor_1783633474237"
+        },
+        "parent": "inst_693",
+        "parentSlot": "input",
+        "parentInputId": "z",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 1
+      },
+      "inst_697": {
+        "instanceId": "inst_697",
+        "blockDefId": "operator-add",
+        "x": 96.62841796875,
+        "y": 2088,
+        "inputValues": {
+          "num1": "",
+          "num2": ""
+        },
+        "parent": "inst_692",
+        "parentSlot": "input",
+        "parentInputId": "x",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "inputBlocks": {
+          "num1": "inst_698",
+          "num2": "inst_699"
+        },
+        "zOrder": 1
+      },
+      "inst_698": {
+        "instanceId": "inst_698",
+        "blockDefId": "attribute-of",
+        "x": 106.62841796875,
+        "y": 2094,
+        "inputValues": {
+          "attribute": "x-position",
+          "target": "actor_1783633474237"
+        },
+        "parent": "inst_697",
+        "parentSlot": "input",
+        "parentInputId": "num1",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 1
+      },
+      "inst_699": {
+        "instanceId": "inst_699",
+        "blockDefId": "operator-multiply",
+        "x": 309.08447265625,
+        "y": 2091,
+        "inputValues": {
+          "num1": "",
+          "num2": ""
+        },
+        "parent": "inst_697",
+        "parentSlot": "input",
+        "parentInputId": "num2",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "inputBlocks": {
+          "num1": "inst_700",
+          "num2": "inst_701"
+        },
+        "zOrder": 1
+      },
+      "inst_700": {
+        "instanceId": "inst_700",
+        "blockDefId": "var-reporter",
+        "x": 319.08447265625,
+        "y": 2094,
+        "inputValues": {
+          "name": "ox"
+        },
+        "parent": "inst_699",
+        "parentSlot": "input",
+        "parentInputId": "num1",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 1
+      },
+      "inst_701": {
+        "instanceId": "inst_701",
+        "blockDefId": "var-reporter",
+        "x": 404.34521484375,
+        "y": 2094,
+        "inputValues": {
+          "name": "d"
+        },
+        "parent": "inst_699",
+        "parentSlot": "input",
+        "parentInputId": "num2",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 1
+      },
+      "inst_702": {
+        "instanceId": "inst_702",
+        "blockDefId": "operator-add",
+        "x": 511.18212890625,
+        "y": 2088,
+        "inputValues": {
+          "num1": "",
+          "num2": ""
+        },
+        "parent": "inst_692",
+        "parentSlot": "input",
+        "parentInputId": "y",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "inputBlocks": {
+          "num1": "inst_703",
+          "num2": "inst_704"
+        },
+        "zOrder": 1
+      },
+      "inst_703": {
+        "instanceId": "inst_703",
+        "blockDefId": "attribute-of",
+        "x": 521.18212890625,
+        "y": 2094,
+        "inputValues": {
+          "attribute": "y-position",
+          "target": "actor_1783633474237"
+        },
+        "parent": "inst_702",
+        "parentSlot": "input",
+        "parentInputId": "num1",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 1
+      },
+      "inst_704": {
+        "instanceId": "inst_704",
+        "blockDefId": "operator-multiply",
+        "x": 723.63818359375,
+        "y": 2091,
+        "inputValues": {
+          "num1": "",
+          "num2": ""
+        },
+        "parent": "inst_702",
+        "parentSlot": "input",
+        "parentInputId": "num2",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "inputBlocks": {
+          "num1": "inst_705",
+          "num2": "inst_706"
+        },
+        "zOrder": 1
+      },
+      "inst_705": {
+        "instanceId": "inst_705",
+        "blockDefId": "var-reporter",
+        "x": 733.63818359375,
+        "y": 2094,
+        "inputValues": {
+          "name": "oy"
+        },
+        "parent": "inst_704",
+        "parentSlot": "input",
+        "parentInputId": "num1",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 1
+      },
+      "inst_706": {
+        "instanceId": "inst_706",
+        "blockDefId": "var-reporter",
+        "x": 818.89892578125,
+        "y": 2094,
+        "inputValues": {
+          "name": "d"
+        },
+        "parent": "inst_704",
+        "parentSlot": "input",
+        "parentInputId": "num2",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 1
+      },
+      "inst_707": {
+        "instanceId": "inst_707",
+        "blockDefId": "operator-add",
+        "x": 925.1181640625,
+        "y": 2088,
+        "inputValues": {
+          "num1": "",
+          "num2": ""
+        },
+        "parent": "inst_692",
+        "parentSlot": "input",
+        "parentInputId": "z",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "inputBlocks": {
+          "num1": "inst_708",
+          "num2": "inst_710"
+        },
+        "zOrder": 1
+      },
+      "inst_709": {
+        "instanceId": "inst_709",
+        "blockDefId": "attribute-of",
+        "x": 999.5419921875,
+        "y": 2094,
+        "inputValues": {
+          "attribute": "z-position",
+          "target": "actor_1783633474237"
+        },
+        "parent": "inst_708",
+        "parentSlot": "input",
+        "parentInputId": "num2",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 1
+      },
+      "inst_710": {
+        "instanceId": "inst_710",
+        "blockDefId": "operator-multiply",
+        "x": 1215.38037109375,
+        "y": 2091,
+        "inputValues": {
+          "num1": "",
+          "num2": ""
+        },
+        "parent": "inst_707",
+        "parentSlot": "input",
+        "parentInputId": "num2",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "inputBlocks": {
+          "num1": "inst_711",
+          "num2": "inst_712"
+        },
+        "zOrder": 1
+      },
+      "inst_711": {
+        "instanceId": "inst_711",
+        "blockDefId": "var-reporter",
+        "x": 1225.38037109375,
+        "y": 2094,
+        "inputValues": {
+          "name": "oz"
+        },
+        "parent": "inst_710",
+        "parentSlot": "input",
+        "parentInputId": "num1",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 1
+      },
+      "inst_712": {
+        "instanceId": "inst_712",
+        "blockDefId": "var-reporter",
+        "x": 1310.0234375,
+        "y": 2094,
+        "inputValues": {
+          "name": "d"
+        },
+        "parent": "inst_710",
+        "parentSlot": "input",
+        "parentInputId": "num2",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 1
+      },
+      "inst_713": {
+        "instanceId": "inst_713",
+        "blockDefId": "change-var",
+        "x": 72,
+        "y": 1953,
+        "inputValues": {
+          "name": "d",
+          "value": "10"
+        },
+        "parent": "inst_690",
+        "parentSlot": "inside1",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 1
+      },
+      "inst_714": {
+        "instanceId": "inst_714",
+        "blockDefId": "operator-or",
+        "x": 156,
+        "y": 1896,
+        "inputValues": {
+          "num1": "",
+          "num2": ""
+        },
+        "parent": "inst_690",
+        "parentSlot": "condition",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "inputBlocks": {
+          "num1": "inst_715",
+          "num2": "inst_731"
+        },
+        "zOrder": 1
+      },
+      "inst_715": {
+        "instanceId": "inst_715",
+        "blockDefId": "collider-at-point",
+        "x": 170,
+        "y": 1899,
+        "inputValues": {
+          "x": "0",
+          "y": "0",
+          "z": "0",
+          "target": "actor_1783633474237"
+        },
+        "parent": "inst_714",
+        "parentSlot": "input",
+        "parentInputId": "num1",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "inputBlocks": {
+          "x": "inst_716",
+          "y": "inst_721",
+          "z": "inst_726"
+        },
+        "zOrder": 1
+      },
+      "inst_716": {
+        "instanceId": "inst_716",
+        "blockDefId": "operator-add",
+        "x": 253.1376953125,
+        "y": 1902,
+        "inputValues": {
+          "num1": "",
+          "num2": ""
+        },
+        "parent": "inst_715",
+        "parentSlot": "input",
+        "parentInputId": "x",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "inputBlocks": {
+          "num1": "inst_717",
+          "num2": "inst_718"
+        },
+        "zOrder": 1
+      },
+      "inst_717": {
+        "instanceId": "inst_717",
+        "blockDefId": "attribute-of",
+        "x": 263.1376953125,
+        "y": 1908,
+        "inputValues": {
+          "attribute": "x-position",
+          "target": "actor_1783633474237"
+        },
+        "parent": "inst_716",
+        "parentSlot": "input",
+        "parentInputId": "num1",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 1
+      },
+      "inst_718": {
+        "instanceId": "inst_718",
+        "blockDefId": "operator-multiply",
+        "x": 465.59375,
+        "y": 1905,
+        "inputValues": {
+          "num1": "",
+          "num2": ""
+        },
+        "parent": "inst_716",
+        "parentSlot": "input",
+        "parentInputId": "num2",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "inputBlocks": {
+          "num1": "inst_719",
+          "num2": "inst_720"
+        },
+        "zOrder": 1
+      },
+      "inst_719": {
+        "instanceId": "inst_719",
+        "blockDefId": "var-reporter",
+        "x": 475.59375,
+        "y": 1908,
+        "inputValues": {
+          "name": "ox"
+        },
+        "parent": "inst_718",
+        "parentSlot": "input",
+        "parentInputId": "num1",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 1
+      },
+      "inst_720": {
+        "instanceId": "inst_720",
+        "blockDefId": "var-reporter",
+        "x": 560.8544921875,
+        "y": 1908,
+        "inputValues": {
+          "name": "d"
+        },
+        "parent": "inst_718",
+        "parentSlot": "input",
+        "parentInputId": "num2",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 1
+      },
+      "inst_721": {
+        "instanceId": "inst_721",
+        "blockDefId": "operator-add",
+        "x": 667.13525390625,
+        "y": 1902,
+        "inputValues": {
+          "num1": "",
+          "num2": ""
+        },
+        "parent": "inst_715",
+        "parentSlot": "input",
+        "parentInputId": "y",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "inputBlocks": {
+          "num1": "inst_722",
+          "num2": "inst_723"
+        },
+        "zOrder": 1
+      },
+      "inst_722": {
+        "instanceId": "inst_722",
+        "blockDefId": "attribute-of",
+        "x": 677.13525390625,
+        "y": 1908,
+        "inputValues": {
+          "attribute": "y-position",
+          "target": "actor_1783633474237"
+        },
+        "parent": "inst_721",
+        "parentSlot": "input",
+        "parentInputId": "num1",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 1
+      },
+      "inst_723": {
+        "instanceId": "inst_723",
+        "blockDefId": "operator-multiply",
+        "x": 879.59130859375,
+        "y": 1905,
+        "inputValues": {
+          "num1": "",
+          "num2": ""
+        },
+        "parent": "inst_721",
+        "parentSlot": "input",
+        "parentInputId": "num2",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "inputBlocks": {
+          "num1": "inst_724",
+          "num2": "inst_725"
+        },
+        "zOrder": 1
+      },
+      "inst_724": {
+        "instanceId": "inst_724",
+        "blockDefId": "var-reporter",
+        "x": 889.59130859375,
+        "y": 1908,
+        "inputValues": {
+          "name": "oy"
+        },
+        "parent": "inst_723",
+        "parentSlot": "input",
+        "parentInputId": "num1",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 1
+      },
+      "inst_725": {
+        "instanceId": "inst_725",
+        "blockDefId": "var-reporter",
+        "x": 974.85205078125,
+        "y": 1908,
+        "inputValues": {
+          "name": "d"
+        },
+        "parent": "inst_723",
+        "parentSlot": "input",
+        "parentInputId": "num2",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 1
+      },
+      "inst_726": {
+        "instanceId": "inst_726",
+        "blockDefId": "operator-subtract",
+        "x": 1080.5712890625,
+        "y": 1902,
+        "inputValues": {
+          "num1": "",
+          "num2": ""
+        },
+        "parent": "inst_715",
+        "parentSlot": "input",
+        "parentInputId": "z",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "inputBlocks": {
+          "num1": "inst_727",
+          "num2": "inst_728"
+        },
+        "zOrder": 1
+      },
+      "inst_727": {
+        "instanceId": "inst_727",
+        "blockDefId": "attribute-of",
+        "x": 1090.5712890625,
+        "y": 1908,
+        "inputValues": {
+          "attribute": "z-position",
+          "target": "actor_1783633474237"
+        },
+        "parent": "inst_726",
+        "parentSlot": "input",
+        "parentInputId": "num1",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 1
+      },
+      "inst_728": {
+        "instanceId": "inst_728",
+        "blockDefId": "operator-multiply",
+        "x": 1292.40966796875,
+        "y": 1905,
+        "inputValues": {
+          "num1": "",
+          "num2": ""
+        },
+        "parent": "inst_726",
+        "parentSlot": "input",
+        "parentInputId": "num2",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "inputBlocks": {
+          "num1": "inst_729",
+          "num2": "inst_730"
+        },
+        "zOrder": 1
+      },
+      "inst_729": {
+        "instanceId": "inst_729",
+        "blockDefId": "var-reporter",
+        "x": 1302.40966796875,
+        "y": 1908,
+        "inputValues": {
+          "name": "oz"
+        },
+        "parent": "inst_728",
+        "parentSlot": "input",
+        "parentInputId": "num1",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 1
+      },
+      "inst_730": {
+        "instanceId": "inst_730",
+        "blockDefId": "var-reporter",
+        "x": 1387.052734375,
+        "y": 1908,
+        "inputValues": {
+          "name": "d"
+        },
+        "parent": "inst_728",
+        "parentSlot": "input",
+        "parentInputId": "num2",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 1
+      },
+      "inst_731": {
+        "instanceId": "inst_731",
+        "blockDefId": "operator-gt",
+        "x": 1676.97900390625,
+        "y": 1905,
+        "inputValues": {
+          "num1": "",
+          "num2": ""
+        },
+        "parent": "inst_714",
+        "parentSlot": "input",
+        "parentInputId": "num2",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "inputBlocks": {
+          "num1": "inst_732",
+          "num2": "inst_733"
+        },
+        "zOrder": 1
+      },
+      "inst_732": {
+        "instanceId": "inst_732",
+        "blockDefId": "var-reporter",
+        "x": 1690.97900390625,
+        "y": 1908,
+        "inputValues": {
+          "name": "d"
+        },
+        "parent": "inst_731",
+        "parentSlot": "input",
+        "parentInputId": "num1",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 1
+      },
+      "inst_733": {
+        "instanceId": "inst_733",
+        "blockDefId": "var-reporter",
+        "x": 1769.5380859375,
+        "y": 1908,
+        "inputValues": {
+          "name": "dist"
+        },
+        "parent": "inst_731",
+        "parentSlot": "input",
+        "parentInputId": "num2",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 1
+      },
+      "inst_734": {
+        "instanceId": "inst_734",
+        "blockDefId": "operator-multiply",
+        "x": 174.572265625,
+        "y": 1790,
+        "inputValues": {
+          "num1": "",
+          "num2": ""
+        },
+        "parent": "inst_688",
+        "parentSlot": "input",
+        "parentInputId": "value",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "inputBlocks": {
+          "num1": "inst_735",
+          "num2": "inst_737"
+        },
+        "zOrder": 1
+      },
+      "inst_735": {
+        "instanceId": "inst_735",
+        "blockDefId": "operator-mathop",
+        "x": 184.572265625,
+        "y": 1793,
+        "inputValues": {
+          "op": "cos",
+          "num1": "0"
+        },
+        "parent": "inst_734",
+        "parentSlot": "input",
+        "parentInputId": "num1",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "inputBlocks": {
+          "num1": "inst_736"
+        },
+        "zOrder": 1
+      },
+      "inst_736": {
+        "instanceId": "inst_736",
+        "blockDefId": "var-reporter",
+        "x": 268.36376953125,
+        "y": 1796,
+        "inputValues": {
+          "name": "yaw"
+        },
+        "parent": "inst_735",
+        "parentSlot": "input",
+        "parentInputId": "num1",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 1
+      },
+      "inst_737": {
+        "instanceId": "inst_737",
+        "blockDefId": "operator-mathop",
+        "x": 375.5791015625,
+        "y": 1793,
+        "inputValues": {
+          "op": "cos",
+          "num1": "0"
+        },
+        "parent": "inst_734",
+        "parentSlot": "input",
+        "parentInputId": "num2",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "inputBlocks": {
+          "num1": "inst_738"
+        },
+        "zOrder": 1
+      },
+      "inst_738": {
+        "instanceId": "inst_738",
+        "blockDefId": "var-reporter",
+        "x": 459.37060546875,
+        "y": 1796,
+        "inputValues": {
+          "name": "pitch"
+        },
+        "parent": "inst_737",
+        "parentSlot": "input",
+        "parentInputId": "num1",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 1
+      },
+      "inst_739": {
+        "instanceId": "inst_739",
+        "blockDefId": "operator-mathop",
+        "x": 174.572265625,
+        "y": 1730,
+        "inputValues": {
+          "op": "sin",
+          "num1": "0"
+        },
+        "parent": "inst_687",
+        "parentSlot": "input",
+        "parentInputId": "value",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "inputBlocks": {
+          "num1": "inst_740"
+        },
+        "zOrder": 1
+      },
+      "inst_740": {
+        "instanceId": "inst_740",
+        "blockDefId": "var-reporter",
+        "x": 258.36376953125,
+        "y": 1733,
+        "inputValues": {
+          "name": "pitch"
+        },
+        "parent": "inst_739",
+        "parentSlot": "input",
+        "parentInputId": "num1",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 1
+      },
+      "inst_741": {
+        "instanceId": "inst_741",
+        "blockDefId": "operator-multiply",
+        "x": 174.572265625,
+        "y": 1664,
+        "inputValues": {
+          "num1": "",
+          "num2": ""
+        },
+        "parent": "inst_686",
+        "parentSlot": "input",
+        "parentInputId": "value",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "inputBlocks": {
+          "num1": "inst_742",
+          "num2": "inst_744"
+        },
+        "zOrder": 1
+      },
+      "inst_742": {
+        "instanceId": "inst_742",
+        "blockDefId": "operator-mathop",
+        "x": 184.572265625,
+        "y": 1667,
+        "inputValues": {
+          "op": "sin",
+          "num1": "0"
+        },
+        "parent": "inst_741",
+        "parentSlot": "input",
+        "parentInputId": "num1",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "inputBlocks": {
+          "num1": "inst_743"
+        },
+        "zOrder": 1
+      },
+      "inst_743": {
+        "instanceId": "inst_743",
+        "blockDefId": "var-reporter",
+        "x": 268.36376953125,
+        "y": 1670,
+        "inputValues": {
+          "name": "yaw"
+        },
+        "parent": "inst_742",
+        "parentSlot": "input",
+        "parentInputId": "num1",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 1
+      },
+      "inst_744": {
+        "instanceId": "inst_744",
+        "blockDefId": "operator-mathop",
+        "x": 375.5791015625,
+        "y": 1667,
+        "inputValues": {
+          "op": "cos",
+          "num1": "0"
+        },
+        "parent": "inst_741",
+        "parentSlot": "input",
+        "parentInputId": "num2",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "inputBlocks": {
+          "num1": "inst_745"
+        },
+        "zOrder": 1
+      },
+      "inst_745": {
+        "instanceId": "inst_745",
+        "blockDefId": "var-reporter",
+        "x": 459.37060546875,
+        "y": 1670,
+        "inputValues": {
+          "name": "pitch"
+        },
+        "parent": "inst_744",
+        "parentSlot": "input",
+        "parentInputId": "num1",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 1
+      },
+      "inst_746": {
+        "instanceId": "inst_746",
+        "blockDefId": "attribute-of",
+        "x": 174.572265625,
+        "y": 1610,
+        "inputValues": {
+          "attribute": "z-position",
+          "target": "actor_1783633474237"
+        },
+        "parent": "inst_685",
+        "parentSlot": "input",
+        "parentInputId": "value",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 1
+      },
+      "inst_747": {
+        "instanceId": "inst_747",
+        "blockDefId": "attribute-of",
+        "x": 174.572265625,
+        "y": 1556,
+        "inputValues": {
+          "attribute": "x-position",
+          "target": "actor_1783633474237"
+        },
+        "parent": "inst_684",
+        "parentSlot": "input",
+        "parentInputId": "value",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 1
+      },
+      "inst_748": {
+        "instanceId": "inst_748",
+        "blockDefId": "change-var",
+        "x": 72,
+        "y": 1355,
+        "inputValues": {
+          "name": "yaw",
+          "value": ""
+        },
+        "parent": "inst_683",
+        "parentSlot": "inside1",
+        "next": "inst_749",
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "inputBlocks": {
+          "value": "inst_753"
+        },
+        "zOrder": 1
+      },
+      "inst_749": {
+        "instanceId": "inst_749",
+        "blockDefId": "change-var",
+        "x": 72,
+        "y": 1451,
+        "inputValues": {
+          "name": "pitch",
+          "value": ""
+        },
+        "parent": "inst_748",
+        "parentSlot": "next",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "inputBlocks": {
+          "value": "inst_750"
+        },
+        "zOrder": 1
+      },
+      "inst_750": {
+        "instanceId": "inst_750",
+        "blockDefId": "operator-multiply",
+        "x": 134.623046875,
+        "y": 1464,
+        "inputValues": {
+          "num1": "",
+          "num2": "0.05"
+        },
+        "parent": "inst_749",
+        "parentSlot": "input",
+        "parentInputId": "value",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "inputBlocks": {
+          "num1": "inst_751"
+        },
+        "zOrder": 1
+      },
+      "inst_751": {
+        "instanceId": "inst_751",
+        "blockDefId": "operator-subtract",
+        "x": 144.623046875,
+        "y": 1467,
+        "inputValues": {
+          "num1": "12",
+          "num2": ""
+        },
+        "parent": "inst_750",
+        "parentSlot": "input",
+        "parentInputId": "num1",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "inputBlocks": {
+          "num2": "inst_752"
+        },
+        "zOrder": 1
+      },
+      "inst_752": {
+        "instanceId": "inst_752",
+        "blockDefId": "var-reporter",
+        "x": 209.046875,
+        "y": 1470,
+        "inputValues": {
+          "name": "pitch"
+        },
+        "parent": "inst_751",
+        "parentSlot": "input",
+        "parentInputId": "num2",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 1
+      },
+      "inst_753": {
+        "instanceId": "inst_753",
+        "blockDefId": "operator-multiply",
+        "x": 134.623046875,
+        "y": 1368,
+        "inputValues": {
+          "num1": "",
+          "num2": "0.08"
+        },
+        "parent": "inst_748",
+        "parentSlot": "input",
+        "parentInputId": "value",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "inputBlocks": {
+          "num1": "inst_754"
+        },
+        "zOrder": 1
+      },
+      "inst_754": {
+        "instanceId": "inst_754",
+        "blockDefId": "operator-subtract",
+        "x": 144.623046875,
+        "y": 1371,
+        "inputValues": {
+          "num1": "",
+          "num2": "180"
+        },
+        "parent": "inst_753",
+        "parentSlot": "input",
+        "parentInputId": "num1",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "inputBlocks": {
+          "num1": "inst_755"
+        },
+        "zOrder": 1
+      },
+      "inst_755": {
+        "instanceId": "inst_755",
+        "blockDefId": "operator-mod",
+        "x": 154.623046875,
+        "y": 1374,
+        "inputValues": {
+          "num1": "",
+          "num2": "360"
+        },
+        "parent": "inst_754",
+        "parentSlot": "input",
+        "parentInputId": "num1",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "inputBlocks": {
+          "num1": "inst_756"
+        },
+        "zOrder": 1
+      },
+      "inst_756": {
+        "instanceId": "inst_756",
+        "blockDefId": "operator-add",
+        "x": 215.41455078125,
+        "y": 1377,
+        "inputValues": {
+          "num1": "",
+          "num2": "540"
+        },
+        "parent": "inst_755",
+        "parentSlot": "input",
+        "parentInputId": "num1",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "inputBlocks": {
+          "num1": "inst_757"
+        },
+        "zOrder": 1
+      },
+      "inst_757": {
+        "instanceId": "inst_757",
+        "blockDefId": "operator-mod",
+        "x": 225.41455078125,
+        "y": 1380,
+        "inputValues": {
+          "num1": "",
+          "num2": "360"
+        },
+        "parent": "inst_756",
+        "parentSlot": "input",
+        "parentInputId": "num1",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "inputBlocks": {
+          "num1": "inst_758"
+        },
+        "zOrder": 1
+      },
+      "inst_758": {
+        "instanceId": "inst_758",
+        "blockDefId": "operator-subtract",
+        "x": 286.2060546875,
+        "y": 1383,
+        "inputValues": {
+          "num1": "",
+          "num2": ""
+        },
+        "parent": "inst_757",
+        "parentSlot": "input",
+        "parentInputId": "num1",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "inputBlocks": {
+          "num1": "inst_759",
+          "num2": "inst_761"
+        },
+        "zOrder": 1
+      },
+      "inst_759": {
+        "instanceId": "inst_759",
+        "blockDefId": "operator-add",
+        "x": 296.2060546875,
+        "y": 1386,
+        "inputValues": {
+          "num1": "",
+          "num2": "90"
+        },
+        "parent": "inst_758",
+        "parentSlot": "input",
+        "parentInputId": "num1",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "inputBlocks": {
+          "num1": "inst_760"
+        },
+        "zOrder": 1
+      },
+      "inst_760": {
+        "instanceId": "inst_760",
+        "blockDefId": "attribute-of",
+        "x": 306.2060546875,
+        "y": 1389,
+        "inputValues": {
+          "attribute": "direction",
+          "target": "actor_1783633474237"
+        },
+        "parent": "inst_759",
+        "parentSlot": "input",
+        "parentInputId": "num1",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 1
+      },
+      "inst_761": {
+        "instanceId": "inst_761",
+        "blockDefId": "var-reporter",
+        "x": 565.4736328125,
+        "y": 1389,
+        "inputValues": {
+          "name": "yaw"
+        },
+        "parent": "inst_758",
+        "parentSlot": "input",
+        "parentInputId": "num2",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 1
+      },
+      "inst_762": {
+        "instanceId": "inst_762",
+        "blockDefId": "operator-and",
+        "x": 96,
+        "y": 1298,
+        "inputValues": {
+          "num1": "",
+          "num2": ""
+        },
+        "parent": "inst_683",
+        "parentSlot": "condition",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "inputBlocks": {
+          "num1": "inst_763",
+          "num2": "inst_771"
+        },
+        "zOrder": 1
+      },
+      "inst_763": {
+        "instanceId": "inst_763",
+        "blockDefId": "operator-not",
+        "x": 110,
+        "y": 1301,
+        "inputValues": {
+          "num1": ""
+        },
+        "parent": "inst_762",
+        "parentSlot": "input",
+        "parentInputId": "num1",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "inputBlocks": {
+          "num1": "inst_764"
+        },
+        "zOrder": 1
+      },
+      "inst_764": {
+        "instanceId": "inst_764",
+        "blockDefId": "operator-and",
+        "x": 149.7783203125,
+        "y": 1304,
+        "inputValues": {
+          "num1": "",
+          "num2": ""
+        },
+        "parent": "inst_763",
+        "parentSlot": "input",
+        "parentInputId": "num1",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "inputBlocks": {
+          "num1": "inst_765",
+          "num2": "inst_768"
+        },
+        "zOrder": 1
+      },
+      "inst_765": {
+        "instanceId": "inst_765",
+        "blockDefId": "operator-equals",
+        "x": 163.7783203125,
+        "y": 1307,
+        "inputValues": {
+          "num1": "",
+          "num2": ""
+        },
+        "parent": "inst_764",
+        "parentSlot": "input",
+        "parentInputId": "num1",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "inputBlocks": {
+          "num1": "inst_766",
+          "num2": "inst_767"
+        },
+        "zOrder": 1
+      },
+      "inst_766": {
+        "instanceId": "inst_766",
+        "blockDefId": "attribute-of",
+        "x": 177.7783203125,
+        "y": 1310,
+        "inputValues": {
+          "attribute": "x-position",
+          "target": "actor_1783633474237"
+        },
+        "parent": "inst_765",
+        "parentSlot": "input",
+        "parentInputId": "num1",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 1
+      },
+      "inst_767": {
+        "instanceId": "inst_767",
+        "blockDefId": "var-reporter",
+        "x": 379.650390625,
+        "y": 1310,
+        "inputValues": {
+          "name": "ltx"
+        },
+        "parent": "inst_765",
+        "parentSlot": "input",
+        "parentInputId": "num2",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 1
+      },
+      "inst_768": {
+        "instanceId": "inst_768",
+        "blockDefId": "operator-equals",
+        "x": 482.048828125,
+        "y": 1307,
+        "inputValues": {
+          "num1": "",
+          "num2": ""
+        },
+        "parent": "inst_764",
+        "parentSlot": "input",
+        "parentInputId": "num2",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "inputBlocks": {
+          "num1": "inst_769",
+          "num2": "inst_770"
+        },
+        "zOrder": 1
+      },
+      "inst_769": {
+        "instanceId": "inst_769",
+        "blockDefId": "attribute-of",
+        "x": 496.048828125,
+        "y": 1310,
+        "inputValues": {
+          "attribute": "z-position",
+          "target": "actor_1783633474237"
+        },
+        "parent": "inst_768",
+        "parentSlot": "input",
+        "parentInputId": "num1",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 1
+      },
+      "inst_770": {
+        "instanceId": "inst_770",
+        "blockDefId": "var-reporter",
+        "x": 697.30322265625,
+        "y": 1310,
+        "inputValues": {
+          "name": "ltz"
+        },
+        "parent": "inst_768",
+        "parentSlot": "input",
+        "parentInputId": "num2",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 1
+      },
+      "inst_771": {
+        "instanceId": "inst_771",
+        "blockDefId": "operator-gt",
+        "x": 835.083984375,
+        "y": 1307,
+        "inputValues": {
+          "num1": "",
+          "num2": "30"
+        },
+        "parent": "inst_762",
+        "parentSlot": "input",
+        "parentInputId": "num2",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "inputBlocks": {
+          "num1": "inst_772"
+        },
+        "zOrder": 1
+      },
+      "inst_772": {
+        "instanceId": "inst_772",
+        "blockDefId": "var-reporter",
+        "x": 849.083984375,
+        "y": 1310,
+        "inputValues": {
+          "name": "parado"
+        },
+        "parent": "inst_771",
+        "parentSlot": "input",
+        "parentInputId": "num1",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 1
+      },
+      "inst_773": {
+        "instanceId": "inst_773",
+        "blockDefId": "set-var",
+        "x": 72,
+        "y": 1219,
+        "inputValues": {
+          "name": "pitch",
+          "value": "-80"
+        },
+        "parent": "inst_682",
+        "parentSlot": "inside1",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 1
+      },
+      "inst_774": {
+        "instanceId": "inst_774",
+        "blockDefId": "operator-lt",
+        "x": 96,
+        "y": 1178,
+        "inputValues": {
+          "num1": "",
+          "num2": "-80"
+        },
+        "parent": "inst_682",
+        "parentSlot": "condition",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "inputBlocks": {
+          "num1": "inst_775"
+        },
+        "zOrder": 1
+      },
+      "inst_775": {
+        "instanceId": "inst_775",
+        "blockDefId": "var-reporter",
+        "x": 110,
+        "y": 1181,
+        "inputValues": {
+          "name": "pitch"
+        },
+        "parent": "inst_774",
+        "parentSlot": "input",
+        "parentInputId": "num1",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 1
+      },
+      "inst_776": {
+        "instanceId": "inst_776",
+        "blockDefId": "set-var",
+        "x": 72,
+        "y": 1097,
+        "inputValues": {
+          "name": "pitch",
+          "value": "80"
+        },
+        "parent": "inst_681",
+        "parentSlot": "inside1",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 1
+      },
+      "inst_777": {
+        "instanceId": "inst_777",
+        "blockDefId": "operator-gt",
+        "x": 96,
+        "y": 1056,
+        "inputValues": {
+          "num1": "",
+          "num2": "80"
+        },
+        "parent": "inst_681",
+        "parentSlot": "condition",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "inputBlocks": {
+          "num1": "inst_778"
+        },
+        "zOrder": 1
+      },
+      "inst_778": {
+        "instanceId": "inst_778",
+        "blockDefId": "var-reporter",
+        "x": 110,
+        "y": 1059,
+        "inputValues": {
+          "name": "pitch"
+        },
+        "parent": "inst_777",
+        "parentSlot": "input",
+        "parentInputId": "num1",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 1
+      },
+      "inst_779": {
+        "instanceId": "inst_779",
+        "blockDefId": "mouse-y",
+        "x": 177.52685546875,
+        "y": 1008,
+        "inputValues": {},
+        "parent": "inst_680",
+        "parentSlot": "input",
+        "parentInputId": "value",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 1
+      },
+      "inst_780": {
+        "instanceId": "inst_780",
+        "blockDefId": "mouse-x",
+        "x": 177.52685546875,
+        "y": 954,
+        "inputValues": {},
+        "parent": "inst_679",
+        "parentSlot": "input",
+        "parentInputId": "value",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 1
+      },
+      "inst_781": {
+        "instanceId": "inst_781",
+        "blockDefId": "change-var",
+        "x": 72,
+        "y": 794,
+        "inputValues": {
+          "name": "parado",
+          "value": "1"
+        },
+        "parent": "inst_678",
+        "parentSlot": "inside1",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 1
+      },
+      "inst_782": {
+        "instanceId": "inst_782",
+        "blockDefId": "set-var",
+        "x": 72,
+        "y": 867,
+        "inputValues": {
+          "name": "parado",
+          "value": "0"
+        },
+        "parent": "inst_678",
+        "parentSlot": "inside2",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 1
+      },
+      "inst_783": {
+        "instanceId": "inst_783",
+        "blockDefId": "operator-and",
+        "x": 131,
+        "y": 749,
+        "inputValues": {
+          "num1": "",
+          "num2": ""
+        },
+        "parent": "inst_678",
+        "parentSlot": "condition",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "inputBlocks": {
+          "num1": "inst_784",
+          "num2": "inst_787"
+        },
+        "zOrder": 1
+      },
+      "inst_784": {
+        "instanceId": "inst_784",
+        "blockDefId": "operator-equals",
+        "x": 145,
+        "y": 752,
+        "inputValues": {
+          "num1": "",
+          "num2": ""
+        },
+        "parent": "inst_783",
+        "parentSlot": "input",
+        "parentInputId": "num1",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "inputBlocks": {
+          "num1": "inst_785",
+          "num2": "inst_786"
+        },
+        "zOrder": 1
+      },
+      "inst_785": {
+        "instanceId": "inst_785",
+        "blockDefId": "mouse-x",
+        "x": 159,
+        "y": 755,
+        "inputValues": {},
+        "parent": "inst_784",
+        "parentSlot": "input",
+        "parentInputId": "num1",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 1
+      },
+      "inst_786": {
+        "instanceId": "inst_786",
+        "blockDefId": "var-reporter",
+        "x": 310.5859375,
+        "y": 755,
+        "inputValues": {
+          "name": "lmx"
+        },
+        "parent": "inst_784",
+        "parentSlot": "input",
+        "parentInputId": "num2",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 1
+      },
+      "inst_787": {
+        "instanceId": "inst_787",
+        "blockDefId": "operator-equals",
+        "x": 419.10205078125,
+        "y": 752,
+        "inputValues": {
+          "num1": "",
+          "num2": ""
+        },
+        "parent": "inst_783",
+        "parentSlot": "input",
+        "parentInputId": "num2",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "inputBlocks": {
+          "num1": "inst_788",
+          "num2": "inst_789"
+        },
+        "zOrder": 1
+      },
+      "inst_788": {
+        "instanceId": "inst_788",
+        "blockDefId": "mouse-y",
+        "x": 433.10205078125,
+        "y": 755,
+        "inputValues": {},
+        "parent": "inst_787",
+        "parentSlot": "input",
+        "parentInputId": "num1",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 1
+      },
+      "inst_789": {
+        "instanceId": "inst_789",
+        "blockDefId": "var-reporter",
+        "x": 584.68798828125,
+        "y": 755,
+        "inputValues": {
+          "name": "lmy"
+        },
+        "parent": "inst_787",
+        "parentSlot": "input",
+        "parentInputId": "num2",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 1
+      },
+      "inst_790": {
+        "instanceId": "inst_790",
+        "blockDefId": "operator-subtract",
+        "x": 118.623046875,
+        "y": 697,
+        "inputValues": {
+          "num1": "",
+          "num2": ""
+        },
+        "parent": "inst_677",
+        "parentSlot": "input",
+        "parentInputId": "value",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "inputBlocks": {
+          "num1": "inst_791",
+          "num2": "inst_792"
+        },
+        "zOrder": 1
+      },
+      "inst_791": {
+        "instanceId": "inst_791",
+        "blockDefId": "var-reporter",
+        "x": 128.623046875,
+        "y": 700,
+        "inputValues": {
+          "name": "lmy"
+        },
+        "parent": "inst_790",
+        "parentSlot": "input",
+        "parentInputId": "num1",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 1
+      },
+      "inst_792": {
+        "instanceId": "inst_792",
+        "blockDefId": "mouse-y",
+        "x": 220.00146484375,
+        "y": 700,
+        "inputValues": {},
+        "parent": "inst_790",
+        "parentSlot": "input",
+        "parentInputId": "num2",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 1
+      },
+      "inst_793": {
+        "instanceId": "inst_793",
+        "blockDefId": "operator-subtract",
+        "x": 118.623046875,
+        "y": 637,
+        "inputValues": {
+          "num1": "",
+          "num2": ""
+        },
+        "parent": "inst_676",
+        "parentSlot": "input",
+        "parentInputId": "value",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "inputBlocks": {
+          "num1": "inst_794",
+          "num2": "inst_795"
+        },
+        "zOrder": 1
+      },
+      "inst_794": {
+        "instanceId": "inst_794",
+        "blockDefId": "mouse-x",
+        "x": 128.623046875,
+        "y": 640,
+        "inputValues": {},
+        "parent": "inst_793",
+        "parentSlot": "input",
+        "parentInputId": "num1",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 1
+      },
+      "inst_795": {
+        "instanceId": "inst_795",
+        "blockDefId": "var-reporter",
+        "x": 280.79296875,
+        "y": 640,
+        "inputValues": {
+          "name": "lmx"
+        },
+        "parent": "inst_793",
+        "parentSlot": "input",
+        "parentInputId": "num2",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 1
+      },
+      "inst_796": {
+        "instanceId": "inst_796",
+        "blockDefId": "attribute-of",
+        "x": 158.572265625,
+        "y": 439,
+        "inputValues": {
+          "attribute": "z-position",
+          "target": "actor_1783633474237"
+        },
+        "parent": "inst_672",
+        "parentSlot": "input",
+        "parentInputId": "value",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 1
+      },
+      "inst_797": {
+        "instanceId": "inst_797",
+        "blockDefId": "attribute-of",
+        "x": 158.572265625,
+        "y": 385,
+        "inputValues": {
+          "attribute": "x-position",
+          "target": "actor_1783633474237"
+        },
+        "parent": "inst_671",
+        "parentSlot": "input",
+        "parentInputId": "value",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 1
+      },
+      "inst_798": {
+        "instanceId": "inst_798",
+        "blockDefId": "mouse-y",
+        "x": 161.52685546875,
+        "y": 331,
+        "inputValues": {},
+        "parent": "inst_670",
+        "parentSlot": "input",
+        "parentInputId": "value",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 1
+      },
+      "inst_799": {
+        "instanceId": "inst_799",
+        "blockDefId": "mouse-x",
+        "x": 161.52685546875,
+        "y": 277,
+        "inputValues": {},
+        "parent": "inst_669",
+        "parentSlot": "input",
+        "parentInputId": "value",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 1
+      },
+      "inst_800": {
+        "instanceId": "inst_800",
+        "blockDefId": "operator-add",
+        "x": 163.36376953125,
+        "y": 169,
+        "inputValues": {
+          "num1": "",
+          "num2": "90"
+        },
+        "parent": "inst_667",
+        "parentSlot": "input",
+        "parentInputId": "value",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "inputBlocks": {
+          "num1": "inst_801"
+        },
+        "zOrder": 1
+      },
+      "inst_801": {
+        "instanceId": "inst_801",
+        "blockDefId": "attribute-of",
+        "x": 173.36376953125,
+        "y": 172,
+        "inputValues": {
+          "attribute": "direction",
+          "target": "actor_1783633474237"
+        },
+        "parent": "inst_800",
+        "parentSlot": "input",
+        "parentInputId": "num1",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "zOrder": 1
+      },
+      "inst_708": {
+        "instanceId": "inst_708",
+        "blockDefId": "operator-subtract",
+        "x": 935.1181640625,
+        "y": 2091,
+        "inputValues": {
+          "num1": "0",
+          "num2": ""
+        },
+        "parent": "inst_707",
+        "parentSlot": "input",
+        "parentInputId": "num1",
+        "next": null,
+        "inside1": null,
+        "inside2": null,
+        "condition": null,
+        "inputBlocks": {
+          "num2": "inst_709"
+        },
+        "zOrder": 1
+      }
+    },
+    "actor_1783738131709": {}
+  },
+  "actorGroupsMap": {},
+  "activeActorId": "actor_1783738131709",
+  "workspace": {
+    "paneTree": {
+      "type": "split",
+      "id": "pane_41",
+      "direction": "row",
+      "ratio": 0.15,
+      "children": [
+        {
+          "type": "leaf",
+          "id": "pane_42",
+          "moduleType": "palette"
+        },
+        {
+          "type": "split",
+          "id": "pane_43",
+          "direction": "row",
+          "ratio": 0.6,
+          "children": [
+            {
+              "type": "split",
+              "id": "pane_44",
+              "direction": "col",
+              "ratio": 0.78,
+              "children": [
+                {
+                  "type": "leaf",
+                  "id": "pane_45",
+                  "moduleType": "scene"
+                },
+                {
+                  "type": "leaf",
+                  "id": "pane_46",
+                  "moduleType": "actors"
+                }
+              ]
+            },
+            {
+              "type": "split",
+              "id": "pane_47",
+              "direction": "col",
+              "ratio": 0.5,
+              "children": [
+                {
+                  "type": "leaf",
+                  "id": "pane_48",
+                  "moduleType": "stage"
+                },
+                {
+                  "type": "leaf",
+                  "id": "pane_49",
+                  "moduleType": "code"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "actorsViewMode": "default",
+    "selectedStructuralFile": null,
+    "structuralOverrides": {},
+    "activeModuleId": "core",
+    "canvasMode": "block",
+    "importedPacks": [],
+    "runtimeOverrides": {},
+    "terminalProfiles": [
+      {
+        "id": "powershell",
+        "name": "PowerShell",
+        "shell": "powershell",
+        "command": "powershell.exe",
+        "args": [
+          "-NoLogo",
+          "-ExecutionPolicy",
+          "Bypass"
+        ]
+      },
+      {
+        "id": "cmd",
+        "name": "CMD",
+        "shell": "cmd",
+        "command": "cmd.exe",
+        "args": []
+      },
+      {
+        "id": "bash",
+        "name": "Bash",
+        "shell": "bash",
+        "command": "bash",
+        "args": [
+          "-i"
+        ]
+      }
+    ],
+    "defaultTerminalProfileId": "powershell",
+    "terminalTabsByPane": {},
+    "activeTerminalTabIdByPane": {},
+    "selectedRenderByModule": {},
+    "renderSettings": {
+      "width": 480,
+      "height": 360,
+      "fps": 60,
+      "aspectRatio": "4:3",
+      "scalingMode": "native",
+      "shadingEnabled": true,
+      "shadowsEnabled": true,
+      "shadowQuality": "medium",
+      "pointerLockEnabled": true,
+      "mobileControls": {
+        "enabled": true,
+        "showOnNarrowViewport": true,
+        "showToggleInPlayerChrome": true,
+        "narrowBreakpoint": 768,
+        "controls": [
+          {
+            "id": "stick-move",
+            "type": "stick",
+            "x": 18,
+            "y": 78,
+            "size": 28,
+            "label": "Mover",
+            "opacity": 0.55,
+            "stickMode": "move",
+            "moveKeys": {
+              "up": "w",
+              "down": "s",
+              "left": "a",
+              "right": "d"
+            }
+          },
+          {
+            "id": "stick-look",
+            "type": "stick",
+            "x": 77.03703703703704,
+            "y": 46.31401238041643,
+            "size": 20,
+            "label": "Olhar",
+            "opacity": 0.45,
+            "stickMode": "look",
+            "lookSensitivity": 1.2
+          },
+          {
+            "id": "btn-jump",
+            "type": "button",
+            "x": 78.58024691358024,
+            "y": 75.46426561620709,
+            "size": 12,
+            "label": "Pular",
+            "opacity": 0.6,
+            "binding": {
+              "key": " "
+            },
+            "holdMode": "press"
+          },
+          {
+            "id": "btn-fire",
+            "type": "button",
+            "x": 89.01234567901236,
+            "y": 65.78503095104108,
+            "size": 12,
+            "label": "Quebrar",
+            "opacity": 0.6,
+            "binding": {
+              "mouseButton": 0
+            },
+            "holdMode": "press"
+          },
+          {
+            "id": "btn-mv92qbit-rk6d",
+            "type": "button",
+            "x": 89.44444444444444,
+            "y": 86.83173888576252,
+            "size": 12,
+            "label": "Novo bloco",
+            "opacity": 0.6,
+            "binding": {
+              "key": " "
+            },
+            "holdMode": "press"
+          }
+        ]
+      }
+    }
+  },
+  "customBlocks": [
+    {
+      "id": "custom_1783650964345",
+      "name": "handle keys - jump",
+      "params": [],
+      "color": "#FF6680",
+      "actorId": "actor_1783633474237"
+    },
+    {
+      "id": "custom_1783658512300",
+      "name": "paint jump",
+      "params": [],
+      "color": "#FF6680",
+      "actorId": "actor_1783633474237"
+    }
+  ],
+  "hiddenActorIds": [
+    "__camera__",
+    "__scene__",
+    "__light_ambient__",
+    "__light_directional__"
+  ],
+  "sceneCamera": {
+    "x": -142.1637775142105,
+    "y": -201.41030854599137,
+    "z": -205.92277033288016,
+    "yaw": 4.693843125735936,
+    "pitch": 1.2894670507652164,
+    "fov": 1.0471975511965976,
+    "projection": "perspective",
+    "orthoSize": 360,
+    "followActorId": "actor_1783633474237",
+    "followOffset": {
+      "x": 0,
+      "y": 85,
+      "z": 0
+    },
+    "followOrbit": {
+      "yawDeg": -91.06259919883686,
+      "pitchDeg": -73.88101983002832,
+      "distance": 15
+    }
+  },
+  "scenes": [
+    {
+      "id": "scene_main",
+      "name": "Principal",
+      "isStartup": true,
+      "color": "#7c3aed"
+    }
+  ],
+  "activeSceneId": "scene_main"
+}

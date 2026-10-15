@@ -1,2 +1,5 @@
-# teste-Sora---Wicand
-Projeto Blocking: Winecraft
+# Winecraft
+
+Projeto criado com [WicandBlocks](https://blocking.com.br).
+
+Para abrir este projeto, importe-o no editor WicandBlocks.
